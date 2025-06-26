@@ -1,0 +1,17 @@
+{
+    "lia_implication" : "benchmarks/lia/implications/tests",
+    "clam_implication" : "benchmarks/clam/implications",
+    "clam_atomic" : "benchmarks/clam/atomic",
+    "lia_atomic" : "benchmarks/lia/atomic",
+
+    "selection" : "benchmarks/vfa_selection/tests",
+    "merge" : "benchmarks/vfa_merge/tests",
+    "binom" : "benchmarks/vfa_binom/tests",
+    "priqueue" : "benchmarks/vfa_priqueue/tests",
+    "sort" : "benchmarks/vfa_sort/tests",
+    "searchtree" : "benchmarks/vfa_searchtree/tests",
+    "perm" : "benchmarks/vfa_perm/tests",
+    "bagperm" : "benchmarks/vfa_bagperm/tests",
+    "redblack" : "benchmarks/vfa_redblack/tests",
+    "trie" : "benchmarks/vfa_trie/tests"
+}

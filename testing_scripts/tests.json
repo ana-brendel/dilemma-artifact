@@ -1,0 +1,1799 @@
+{
+    "lia_implication" : [
+        {
+            "location" : "leftist_mergea",
+            "target" : "rank_right_height_5"
+        },
+        {
+            "location" : "leftist_mergea",
+            "target" : "rank_right_height_1"
+        },
+        {
+            "location" : "leftist_merge",
+            "target" : "leftist_mergea"
+        },
+        {
+            "location" : "leftist_mergea",
+            "target" : "rank_right_height_6"
+        },
+        {
+            "location" : "leftist_mergea",
+            "target" : "rank_right_height_2"
+        },
+        {
+            "location" : "leftist_hinsert",
+            "target" : "leftist_merge"
+        },
+        {
+            "location" : "leftist_mergea",
+            "target" : "rank_right_height_3"
+        },
+        {
+            "location" : "leftist_mergea",
+            "target" : "rank_right_height_4"
+        },
+        {
+            "location" : "leftist_hinsert_mulit",
+            "target" : "leftist_hinsert"
+        }
+    ],
+
+    "clam_implication" : [
+        {
+            "location" : "",
+            "target" : "goal38_1"
+        },
+        {
+            "location" : "",
+            "target" : "goal50_3"
+        },
+        {
+            "location" : "",
+            "target" : "goal41_3"
+        },
+        {
+            "location" : "",
+            "target" : "goal49_2"
+        },
+        {
+            "location" : "",
+            "target" : "goal62_2"
+        },
+        {
+            "location" : "",
+            "target" : "goal38_2"
+        },
+        {
+            "location" : "",
+            "target" : "goal42"
+        },
+        {
+            "location" : "",
+            "target" : "goal49_1"
+        },
+        {
+            "location" : "",
+            "target" : "goal62_1"
+        },
+        {
+            "location" : "",
+            "target" : "goal47_1"
+        },
+        {
+            "location" : "",
+            "target" : "goal50_1"
+        },
+        {
+            "location" : "",
+            "target" : "goal69_1"
+        },
+        {
+            "location" : "",
+            "target" : "goal41_1"
+        },
+        {
+            "location" : "",
+            "target" : "goal44"
+        },
+        {
+            "location" : "",
+            "target" : "goal47_2"
+        },
+        {
+            "location" : "",
+            "target" : "goal50_2"
+        },
+        {
+            "location" : "",
+            "target" : "goal14"
+        },
+        {
+            "location" : "",
+            "target" : "goal41_2"
+        },
+        {
+            "location" : "",
+            "target" : "goal69_2"
+        },
+        {
+            "location" : "",
+            "target" : "goal49_3"
+        }
+    ],
+
+    "clam_atomic" : [
+        {
+            "location" : "goal59",
+            "target" : "rev_rev_cons"
+        },
+        {
+            "location" : "goal12",
+            "target" : "append_assoc"
+        },
+        {
+            "location" : "qreva_append",
+            "target" : "qreva_nil_2"
+        },
+        {
+            "location" : "goal21",
+            "target" : "append_assoc_1"
+        },
+        {
+            "location" : "goal48",
+            "target" : "insort_len"
+        },
+        {
+            "location" : "goal7",
+            "target" : "plus_comm_3"
+        },
+        {
+            "location" : "goal16",
+            "target" : "even_odd_plus"
+        },
+        {
+            "location" : "goal32",
+            "target" : "rotate_len_append"
+        },
+        {
+            "location" : "distrib",
+            "target" : "plus_assoc_1"
+        },
+        {
+            "location" : "goal45",
+            "target" : "Nat_beq_refl_1"
+        },
+        {
+            "location" : "goal29",
+            "target" : "rev_involutive"
+        },
+        {
+            "location" : "goal35",
+            "target" : "mult_assoc_1"
+        },
+        {
+            "location" : "goal28",
+            "target" : "append_nil_1"
+        },
+        {
+            "location" : "goal30",
+            "target" : "rev_involutive"
+        },
+        {
+            "location" : "goal8",
+            "target" : "drop_cons_2"
+        },
+        {
+            "location" : "goal46",
+            "target" : "eqb_refl_2"
+        },
+        {
+            "location" : "goal11",
+            "target" : "append_nil"
+        },
+        {
+            "location" : "mult_commut",
+            "target" : "mult_succ"
+        },
+        {
+            "location" : "goal81",
+            "target" : "qreva_rev"
+        },
+        {
+            "location" : "rev_append",
+            "target" : "append_nil_1"
+        },
+        {
+            "location" : "goal9",
+            "target" : "drop_assoc"
+        },
+        {
+            "location" : "goal8",
+            "target" : "drop_cons_assoc"
+        },
+        {
+            "location" : "goal34",
+            "target" : "plus_qmult"
+        },
+        {
+            "location" : "goal5",
+            "target" : "len_cons_succ"
+        },
+        {
+            "location" : "goal33",
+            "target" : "mult_commut"
+        },
+        {
+            "location" : "rev_rev",
+            "target" : "rev_rev_cons"
+        },
+        {
+            "location" : "goal56",
+            "target" : "drop_succ_2"
+        },
+        {
+            "location" : "goal40",
+            "target" : "Nat_beq_refl_1"
+        },
+        {
+            "location" : "qreva_nil",
+            "target" : "append_assoc"
+        },
+        {
+            "location" : "goal57",
+            "target" : "drop_succ_1"
+        },
+        {
+            "location" : "rev_append",
+            "target" : "append_rev_cons"
+        },
+        {
+            "location" : "goal21",
+            "target" : "append_assoc_2"
+        },
+        {
+            "location" : "goal10",
+            "target" : "append_assoc"
+        },
+        {
+            "location" : "goal78",
+            "target" : "rev_append"
+        },
+        {
+            "location" : "qreva_append",
+            "target" : "qreva_nil_1"
+        },
+        {
+            "location" : "goal80",
+            "target" : "rev_append"
+        },
+        {
+            "location" : "goal28",
+            "target" : "qrevflat_append"
+        },
+        {
+            "location" : "goal8",
+            "target" : "drop_nil_3"
+        },
+        {
+            "location" : "goal20",
+            "target" : "even_odd_append_len"
+        },
+        {
+            "location" : "plus_commut",
+            "target" : "plus_zero"
+        },
+        {
+            "location" : "goal45",
+            "target" : "Nat_beq_refl_2"
+        },
+        {
+            "location" : "goal22",
+            "target" : "append_nil"
+        },
+        {
+            "location" : "goal31",
+            "target" : "qreva_nil"
+        },
+        {
+            "location" : "goal7",
+            "target" : "plus_comm_4"
+        },
+        {
+            "location" : "goal86",
+            "target" : "mult_assoc"
+        },
+        {
+            "location" : "goal34",
+            "target" : "plus_commut"
+        },
+        {
+            "location" : "goal27",
+            "target" : "qreva_append"
+        },
+        {
+            "location" : "goal33",
+            "target" : "qfac_mult"
+        },
+        {
+            "location" : "goal82",
+            "target" : "rev_rev"
+        },
+        {
+            "location" : "goal17",
+            "target" : "rev_rev_3"
+        },
+        {
+            "location" : "qreva_append",
+            "target" : "append_assoc"
+        },
+        {
+            "location" : "rev_append",
+            "target" : "append_nil_2"
+        },
+        {
+            "location" : "goal77",
+            "target" : "append_assoc"
+        },
+        {
+            "location" : "goal82",
+            "target" : "qreva_rev"
+        },
+        {
+            "location" : "goal18",
+            "target" : "append_nil"
+        },
+        {
+            "location" : "goal35",
+            "target" : "mult_assoc_2"
+        },
+        {
+            "location" : "goal84",
+            "target" : "mult_commut"
+        },
+        {
+            "location" : "goal6",
+            "target" : "len_rev"
+        },
+        {
+            "location" : "goal40",
+            "target" : "append_single"
+        },
+        {
+            "location" : "goal28",
+            "target" : "append_nil_2"
+        },
+        {
+            "location" : "goal46",
+            "target" : "eqb_refl_1"
+        },
+        {
+            "location" : "goal8",
+            "target" : "drop_cons_1"
+        },
+        {
+            "location" : "goal40",
+            "target" : "Nat_beq_refl_2"
+        },
+        {
+            "location" : "goal56",
+            "target" : "drop_succ_1"
+        },
+        {
+            "location" : "goal11",
+            "target" : "rev_rev_cons"
+        },
+        {
+            "location" : "goal57",
+            "target" : "drop_succ_2"
+        },
+        {
+            "location" : "goal6",
+            "target" : "plus_comm"
+        },
+        {
+            "location" : "goal10",
+            "target" : "append_nil_2"
+        },
+        {
+            "location" : "goal19",
+            "target" : "rev_rev_2"
+        },
+        {
+            "location" : "goal7",
+            "target" : "plus_comm_1"
+        },
+        {
+            "location" : "goal15",
+            "target" : "plus_succ_swap_1"
+        },
+        {
+            "location" : "append_rev_cons",
+            "target" : "append_assoc"
+        },
+        {
+            "location" : "goal78",
+            "target" : "rev_rev"
+        },
+        {
+            "location" : "rev_involutive",
+            "target" : "rev_append"
+        },
+        {
+            "location" : "goal82",
+            "target" : "rev_append"
+        },
+        {
+            "location" : "goal8",
+            "target" : "drop_nil_2"
+        },
+        {
+            "location" : "mult_commut",
+            "target" : "mult_zero"
+        },
+        {
+            "location" : "goal70",
+            "target" : "Nat_beq_refl_2"
+        },
+        {
+            "location" : "goal2",
+            "target" : "len_append_nil"
+        },
+        {
+            "location" : "goal85",
+            "target" : "plus_assoc"
+        },
+        {
+            "location" : "goal1",
+            "target" : "plus_succ"
+        },
+        {
+            "location" : "goal22",
+            "target" : "even_odd_append_len"
+        },
+        {
+            "location" : "goal40",
+            "target" : "subset_refl_1"
+        },
+        {
+            "location" : "goal35",
+            "target" : "mult_commut"
+        },
+        {
+            "location" : "goal29",
+            "target" : "rev_qreva_nil"
+        },
+        {
+            "location" : "goal84",
+            "target" : "mult_assoc"
+        },
+        {
+            "location" : "distrib",
+            "target" : "plus_assoc_3"
+        },
+        {
+            "location" : "mult_succ",
+            "target" : "plus_assoc_1"
+        },
+        {
+            "location" : "len_append",
+            "target" : "append_nil"
+        },
+        {
+            "location" : "goal54",
+            "target" : "drop_succ"
+        },
+        {
+            "location" : "qreva_rev",
+            "target" : "append_assoc"
+        },
+        {
+            "location" : "goal6",
+            "target" : "len_append_2"
+        },
+        {
+            "location" : "goal18",
+            "target" : "append_assoc_1"
+        },
+        {
+            "location" : "goal17",
+            "target" : "rev_rev_2"
+        },
+        {
+            "location" : "rev_append",
+            "target" : "append_assoc"
+        },
+        {
+            "location" : "goal82",
+            "target" : "append_assoc"
+        },
+        {
+            "location" : "goal26",
+            "target" : "plus_comm"
+        },
+        {
+            "location" : "goal85",
+            "target" : "plus_commut"
+        },
+        {
+            "location" : "goal28",
+            "target" : "append_nil_3"
+        },
+        {
+            "location" : "goal28",
+            "target" : "append_assoc"
+        },
+        {
+            "location" : "goal10",
+            "target" : "append_rev_cons"
+        },
+        {
+            "location" : "goal34",
+            "target" : "plus_assoc_1"
+        },
+        {
+            "location" : "goal27",
+            "target" : "append_nil"
+        },
+        {
+            "location" : "goal2",
+            "target" : "len_cons_succ"
+        },
+        {
+            "location" : "goal57",
+            "target" : "drop_succ_3"
+        },
+        {
+            "location" : "goal70",
+            "target" : "less_not_refl"
+        },
+        {
+            "location" : "mult_succ",
+            "target" : "plus_succ_2"
+        },
+        {
+            "location" : "goal11",
+            "target" : "append_assoc_2"
+        },
+        {
+            "location" : "goal33",
+            "target" : "mult_assoc"
+        },
+        {
+            "location" : "goal5",
+            "target" : "len_append_nil"
+        },
+        {
+            "location" : "goal80",
+            "target" : "rev_rev_1"
+        },
+        {
+            "location" : "goal70",
+            "target" : "Nat_beq_refl_1"
+        },
+        {
+            "location" : "goal8",
+            "target" : "drop_nil_1"
+        },
+        {
+            "location" : "goal78",
+            "target" : "append_nil"
+        },
+        {
+            "location" : "goal31",
+            "target" : "qreva_append"
+        },
+        {
+            "location" : "goal40",
+            "target" : "subset_refl_2"
+        },
+        {
+            "location" : "goal81",
+            "target" : "append_assoc"
+        },
+        {
+            "location" : "goal7",
+            "target" : "plus_comm_2"
+        },
+        {
+            "location" : "mult_succ",
+            "target" : "plus_commut"
+        },
+        {
+            "location" : "goal80",
+            "target" : "append_nil"
+        },
+        {
+            "location" : "goal19",
+            "target" : "rev_rev_1"
+        },
+        {
+            "location" : "goal10",
+            "target" : "append_nil_1"
+        },
+        {
+            "location" : "goal15",
+            "target" : "plus_succ_swap_2"
+        },
+        {
+            "location" : "goal29",
+            "target" : "append_nil"
+        },
+        {
+            "location" : "goal6",
+            "target" : "len_append_1"
+        },
+        {
+            "location" : "len_append",
+            "target" : "len_cons_succ"
+        },
+        {
+            "location" : "distrib",
+            "target" : "plus_commut"
+        },
+        {
+            "location" : "goal4",
+            "target" : "len_cons_succ"
+        },
+        {
+            "location" : "goal77",
+            "target" : "append_nil"
+        },
+        {
+            "location" : "goal30",
+            "target" : "append_nil"
+        },
+        {
+            "location" : "mult_succ",
+            "target" : "plus_assoc_2"
+        },
+        {
+            "location" : "goal40",
+            "target" : "subset_append"
+        },
+        {
+            "location" : "goal78",
+            "target" : "append_assoc"
+        },
+        {
+            "location" : "goal13",
+            "target" : "plus_succ_swap"
+        },
+        {
+            "location" : "goal11",
+            "target" : "rev_rev"
+        },
+        {
+            "location" : "goal34",
+            "target" : "plus_assoc_2"
+        },
+        {
+            "location" : "goal18",
+            "target" : "append_assoc_2"
+        },
+        {
+            "location" : "goal17",
+            "target" : "rev_rev_1"
+        },
+        {
+            "location" : "goal23",
+            "target" : "len_append"
+        },
+        {
+            "location" : "goal70",
+            "target" : "Nat_beq_eq"
+        },
+        {
+            "location" : "qreva_append",
+            "target" : "append_nil"
+        },
+        {
+            "location" : "goal11",
+            "target" : "append_assoc_1"
+        },
+        {
+            "location" : "goal21",
+            "target" : "append_nil"
+        },
+        {
+            "location" : "plus_commut",
+            "target" : "plus_succ"
+        },
+        {
+            "location" : "goal86",
+            "target" : "mult_commut"
+        },
+        {
+            "location" : "goal80",
+            "target" : "rev_rev_2"
+        },
+        {
+            "location" : "goal29",
+            "target" : "qreva_append"
+        },
+        {
+            "location" : "mult_assoc",
+            "target" : "distrib"
+        },
+        {
+            "location" : "mult_succ",
+            "target" : "plus_succ_1"
+        },
+        {
+            "location" : "goal40",
+            "target" : "append_cons"
+        },
+        {
+            "location" : "goal35",
+            "target" : "mult_qexp"
+        }
+    ],
+
+    "lia_atomic" : [
+        {
+            "location" : "list_rev2_append",
+            "target" : "append_single"
+        },
+        {
+            "location" : "queue_push_to_list",
+            "target" : "append_nil_1"
+        },
+        {
+            "location" : "list_double_rev",
+            "target" : "rev_append"
+        },
+        {
+            "location" : "list_rev_append",
+            "target" : "append_assoc"
+        },
+        {
+            "location" : "queue_push_to_list",
+            "target" : "append_nil_2"
+        },
+        {
+            "location" : "queue_popback",
+            "target" : "len_butlast"
+        },
+        {
+            "location" : "list_len_rev",
+            "target" : "len_append"
+        },
+        {
+            "location" : "list_rev2_append",
+            "target" : "rev2_append_aux"
+        },
+        {
+            "location" : "list_rev2_len",
+            "target" : "plus_n_0"
+        },
+        {
+            "location" : "queue_push",
+            "target" : "len_app_1"
+        },
+        {
+            "location" : "tree_insert_size",
+            "target" : "plus_n_Sm"
+        },
+        {
+            "location" : "list_rev2_len_lem",
+            "target" : "plus_n_Sm"
+        },
+        {
+            "location" : "list_rev2_len",
+            "target" : "list_rev2_len_lem"
+        },
+        {
+            "location" : "queue_len",
+            "target" : "len_rev"
+        },
+        {
+            "location" : "queue_push_to_list",
+            "target" : "append_nil_3"
+        },
+        {
+            "location" : "list_rev_append_cons_aux",
+            "target" : "append_assoc_1"
+        },
+        {
+            "location" : "list_rev_append_cons",
+            "target" : "rev_append_cons_aux"
+        },
+        {
+            "location" : "list_rev_append_cons",
+            "target" : "append_assoc"
+        },
+        {
+            "location" : "queue_len",
+            "target" : "len_app"
+        },
+        {
+            "location" : "tree_insert_all",
+            "target" : "insert_n_S"
+        },
+        {
+            "location" : "queue_push",
+            "target" : "len_app_2"
+        },
+        {
+            "location" : "list_rev_eq_rev2",
+            "target" : "rev2_append"
+        },
+        {
+            "location" : "list_rev_append",
+            "target" : "app_nil"
+        },
+        {
+            "location" : "list_rev_append_cons_aux",
+            "target" : "append_assoc_2"
+        },
+        {
+            "location" : "list_rev_append",
+            "target" : "append_nil"
+        },
+        {
+            "location" : "tree_size",
+            "target" : "le_O_n"
+        },
+        {
+            "location" : "queue_push",
+            "target" : "len_rev"
+        },
+        {
+            "location" : "heap_size",
+            "target" : "le_O_n"
+        },
+        {
+            "location" : "list_rev_append",
+            "target" : "app_assoc"
+        }
+    ],
+
+    "selection" : [
+        {
+            "location" : "selection_sort_is_correct",
+            "target" : "selection_sort_sorted"
+        },
+        {
+            "location" : "selection_sort_is_correct",
+            "target" : "selection_sort_perm"
+        },
+        {
+            "location" : "cons_of_small_maintains_sort_ind_list",
+            "target" : "Permutation_in"
+        },
+        {
+            "location" : "select_smallest",
+            "target" : "select_fst_leq_1"
+        },
+        {
+            "location" : "select_in",
+            "target" : "Permutation_in"
+        },
+        {
+            "location" : "selsort_sorted",
+            "target" : "cons_of_small_maintains_sort"
+        },
+        {
+            "location" : "cons_of_small_maintains_sort_ind_list",
+            "target" : "selsort_perm"
+        },
+        {
+            "location" : "select_in",
+            "target" : "select_perm"
+        },
+        {
+            "location" : "cons_of_small_maintains_sort_ind_length",
+            "target" : "select_in"
+        },
+        {
+            "location" : "select_smallest",
+            "target" : "select_fst_leq_2"
+        },
+        {
+            "location" : "selsort_perm",
+            "target" : "select_rest_length"
+        },
+        {
+            "location" : "cons_of_small_maintains_sort_ind_length",
+            "target" : "select_rest_length"
+        },
+        {
+            "location" : "selsort_sorted",
+            "target" : "select_rest_length_1"
+        },
+        {
+            "location" : "cons_of_small_maintains_sort_ind_list",
+            "target" : "le_all__le_one"
+        },
+        {
+            "location" : "cons_of_small_maintains_sort_ind_length",
+            "target" : "le_all__le_one"
+        },
+        {
+            "location" : "selsort_sorted",
+            "target" : "select_smallest"
+        },
+        {
+            "location" : "selsort_sorted",
+            "target" : "select_rest_length_2"
+        },
+        {
+            "location" : "le_all__le_one",
+            "target" : "Forall_forall"
+        },
+        {
+            "location" : "cons_of_small_maintains_sort_ind_length",
+            "target" : "select_smallest"
+        },
+        {
+            "location" : "selection_sort_perm",
+            "target" : "selsort_perm"
+        },
+        {
+            "location" : "selsort_perm",
+            "target" : "select_perm"
+        },
+        {
+            "location" : "selection_sort_sorted",
+            "target" : "selsort_sorted"
+        },
+        {
+            "location" : "select_rest_length",
+            "target" : "select_perm"
+        },
+        {
+            "location" : "select_rest_length",
+            "target" : "Permutation_length"
+        }
+    ],
+
+    "merge" : [
+        {
+            "location" : "sorted_merge",
+            "target" : "sorted_merge1_2"
+        },
+        {
+            "location" : "mergesort_perm",
+            "target" : "Permutation_app"
+        },
+        {
+            "location" : "mergesort_sorts",
+            "target" : "sorted_merge"
+        },
+        {
+            "location" : "mergesort_perm",
+            "target" : "Permutation_trans_1"
+        },
+        {
+            "location" : "sorted_merge",
+            "target" : "sorted_merge1_1"
+        },
+        {
+            "location" : "mergesort_perm",
+            "target" : "Permutation_trans_2"
+        },
+        {
+            "location" : "split_perm",
+            "target" : "Permutation_cons_app"
+        },
+        {
+            "location" : "mergesort_correct",
+            "target" : "mergesort_perm"
+        },
+        {
+            "location" : "mergesort_perm",
+            "target" : "split_perm"
+        },
+        {
+            "location" : "merge_perm",
+            "target" : "app_nil_r"
+        },
+        {
+            "location" : "merge_perm",
+            "target" : "Permutation_trans_2"
+        },
+        {
+            "location" : "merge_perm",
+            "target" : "Permutation_app_comm_1"
+        },
+        {
+            "location" : "merge_perm",
+            "target" : "merge_nil_l"
+        },
+        {
+            "location" : "merge_perm",
+            "target" : "Permutation_trans_1"
+        },
+        {
+            "location" : "merge_perm",
+            "target" : "Permutation_app_comm_2"
+        },
+        {
+            "location" : "mergesort_correct",
+            "target" : "mergesort_sorts"
+        },
+        {
+            "location" : "mergesort_perm",
+            "target" : "merge_perm"
+        }
+    ],
+
+    "binom" : [
+        {
+            "location" : "smash_elems",
+            "target" : "app_nil_r_3"
+        },
+        {
+            "location" : "smash_elems",
+            "target" : "Permutation_trans_1"
+        },
+        {
+            "location" : "priqueue_perm",
+            "target" : "Permutation_app"
+        },
+        {
+            "location" : "join_valid",
+            "target" : "smash_valid_4"
+        },
+        {
+            "location" : "join_valid",
+            "target" : "carry_valid_2"
+        },
+        {
+            "location" : "abs_perm",
+            "target" : "Permutation_app"
+        },
+        {
+            "location" : "tree_perm",
+            "target" : "Permutation_inv_cons"
+        },
+        {
+            "location" : "priqueue_elems_ext",
+            "target" : "Permutation_nil"
+        },
+        {
+            "location" : "priqueue_perm",
+            "target" : "tree_perm"
+        },
+        {
+            "location" : "smash_valid",
+            "target" : "carry_valid_1"
+        },
+        {
+            "location" : "smash_elems",
+            "target" : "Permutation_trans_2"
+        },
+        {
+            "location" : "smash_elems",
+            "target" : "app_nil_r_4"
+        },
+        {
+            "location" : "join_valid",
+            "target" : "carry_valid_1"
+        },
+        {
+            "location" : "join_valid",
+            "target" : "smash_valid_3"
+        },
+        {
+            "location" : "can_relate",
+            "target" : "priqq_can_relate"
+        },
+        {
+            "location" : "priqq_can_relate",
+            "target" : "tree_can_relate"
+        },
+        {
+            "location" : "smash_elems",
+            "target" : "Permutation_app_comm_3"
+        },
+        {
+            "location" : "smash_elems",
+            "target" : "Permutation_app_1"
+        },
+        {
+            "location" : "abs_perm",
+            "target" : "tree_perm"
+        },
+        {
+            "location" : "smash_valid",
+            "target" : "carry_valid_2"
+        },
+        {
+            "location" : "tree_elems_ext",
+            "target" : "Permutation_trans"
+        },
+        {
+            "location" : "abs_perm",
+            "target" : "Permutation_trans_2"
+        },
+        {
+            "location" : "delete_max_Some_priq",
+            "target" : "join_valid"
+        },
+        {
+            "location" : "smash_elems",
+            "target" : "app_nil_r_1"
+        },
+        {
+            "location" : "smash_elems",
+            "target" : "Permutation_trans_3"
+        },
+        {
+            "location" : "priqueue_perm",
+            "target" : "Permutation_trans_2"
+        },
+        {
+            "location" : "smash_elems",
+            "target" : "app_nil_r_5"
+        },
+        {
+            "location" : "tree_elems_ext",
+            "target" : "Permutation_nil"
+        },
+        {
+            "location" : "join_valid",
+            "target" : "smash_valid_2"
+        },
+        {
+            "location" : "tree_perm",
+            "target" : "Permutation_trans_2"
+        },
+        {
+            "location" : "insert_priq",
+            "target" : "carry_valid_2"
+        },
+        {
+            "location" : "smash_elems",
+            "target" : "Permutation_app_comm_2"
+        },
+        {
+            "location" : "merge_priq",
+            "target" : "join_valid"
+        },
+        {
+            "location" : "delete_max_Some_priq",
+            "target" : "delete_max_aux_priq"
+        },
+        {
+            "location" : "smash_valid",
+            "target" : "smash_valid_helper1"
+        },
+        {
+            "location" : "tree_perm",
+            "target" : "Permutation_app"
+        },
+        {
+            "location" : "smash_elems",
+            "target" : "app_nil_r_2"
+        },
+        {
+            "location" : "priqueue_perm",
+            "target" : "Permutation_trans_1"
+        },
+        {
+            "location" : "abs_perm",
+            "target" : "priqueue_perm"
+        },
+        {
+            "location" : "abs_perm",
+            "target" : "Permutation_trans_1"
+        },
+        {
+            "location" : "carry_valid",
+            "target" : "smash_valid"
+        },
+        {
+            "location" : "join_valid",
+            "target" : "smash_valid_1"
+        },
+        {
+            "location" : "tree_perm",
+            "target" : "Permutation_trans_1"
+        },
+        {
+            "location" : "smash_elems",
+            "target" : "app_nil_r_6"
+        },
+        {
+            "location" : "priqueue_elems_ext",
+            "target" : "Permutation_trans"
+        },
+        {
+            "location" : "smash_elems",
+            "target" : "Permutation_app_comm_1"
+        },
+        {
+            "location" : "insert_priq",
+            "target" : "carry_valid_1"
+        },
+        {
+            "location" : "smash_valid",
+            "target" : "smash_valid_helper2"
+        },
+        {
+            "location" : "delete_max_aux_priq",
+            "target" : "unzip_preq"
+        }
+    ],
+
+    "priqueue" : [
+        {
+            "location" : "delete_max_Some_relate",
+            "target" : "select_biggest"
+        },
+        {
+            "location" : "delete_max_Some_relate",
+            "target" : "select_perm"
+        },
+        {
+            "location" : "delete_max_None_relate",
+            "target" : "Permutation_nil"
+        },
+        {
+            "location" : "delete_max_Some_relate",
+            "target" : "Permutation_trans_2"
+        },
+        {
+            "location" : "select_biggest",
+            "target" : "select_biggest_aux_2"
+        },
+        {
+            "location" : "delete_max_Some_relate",
+            "target" : "Permutation_trans_1"
+        },
+        {
+            "location" : "select_biggest",
+            "target" : "select_biggest_aux_1"
+        },
+        {
+            "location" : "delete_max_Some_relate",
+            "target" : "forall_permutation"
+        }
+    ],
+
+    "sort" : [
+        {
+            "location" : "sort_perm",
+            "target" : "insert_perm"
+        },
+        {
+            "location" : "insertion_sort_correct",
+            "target" : "sort_perm"
+        },
+        {
+            "location" : "insert_sortedd",
+            "target" : "sortedd_cons_1"
+        },
+        {
+            "location" : "insert_sorted",
+            "target" : "insert_swap"
+        },
+        {
+            "location" : "sortedd_cons",
+            "target" : "nth_succ_2"
+        },
+        {
+            "location" : "sort_sortedd",
+            "target" : "insert_sortedd"
+        },
+        {
+            "location" : "sorted_sortedd",
+            "target" : "sortedd_cons"
+        },
+        {
+            "location" : "insertion_sort_correct",
+            "target" : "sort_sorted"
+        },
+        {
+            "location" : "insert_sortedd",
+            "target" : "sortedd_cons_2"
+        },
+        {
+            "location" : "sortedd_cons",
+            "target" : "nth_succ_1"
+        },
+        {
+            "location" : "sort_sorted",
+            "target" : "insert_sorted"
+        }
+    ],
+
+    "searchtree" : [
+        {
+            "location" : "elements_preserves_relation",
+            "target" : "in_app_or"
+        },
+        {
+            "location" : "elements_nodup_keys",
+            "target" : "NoDup_append"
+        },
+        {
+            "location" : "elements_complete",
+            "target" : "in_or_app_3"
+        },
+        {
+            "location" : "elements_nodup_keys",
+            "target" : "Forall_In_1"
+        },
+        {
+            "location" : "elements_nodup_keys",
+            "target" : "forall_fst_1"
+        },
+        {
+            "location" : "elements_correct",
+            "target" : "elements_preserves_forall_1"
+        },
+        {
+            "location" : "sorted_elements_alt",
+            "target" : "elements_preserves_forall_1"
+        },
+        {
+            "location" : "elements_preserves_forall",
+            "target" : "Forall_app"
+        },
+        {
+            "location" : "kvs_insert_elements",
+            "target" : "kvs_insert_split_3"
+        },
+        {
+            "location" : "kvs_insert_elements",
+            "target" : "elements_preserves_forall_1"
+        },
+        {
+            "location" : "sorted_elements",
+            "target" : "elements_preserves_forall_1"
+        },
+        {
+            "location" : "elements_nodup_keys",
+            "target" : "map_app"
+        },
+        {
+            "location" : "sorted_elements",
+            "target" : "map_app"
+        },
+        {
+            "location" : "elements_correct",
+            "target" : "Forall_In_1"
+        },
+        {
+            "location" : "elements_nodup_keys",
+            "target" : "elements_preserves_forall_1"
+        },
+        {
+            "location" : "kvs_insert_elements",
+            "target" : "elements_preserves_forall_5"
+        },
+        {
+            "location" : "elements_nodup_keys",
+            "target" : "forall_fst_2"
+        },
+        {
+            "location" : "elements_nodup_keys",
+            "target" : "Forall_In_2"
+        },
+        {
+            "location" : "elements_correct",
+            "target" : "elements_preserves_forall_2"
+        },
+        {
+            "location" : "elements_nodup_keys",
+            "target" : "map_cons"
+        },
+        {
+            "location" : "sorted_elements",
+            "target" : "sorted_app"
+        },
+        {
+            "location" : "elements_correct_inverse",
+            "target" : "in_or_app_3"
+        },
+        {
+            "location" : "sorted_elements",
+            "target" : "map_cons"
+        },
+        {
+            "location" : "elements_correct",
+            "target" : "in_app_or"
+        },
+        {
+            "location" : "kvs_insert_elements",
+            "target" : "elements_preserves_forall_2"
+        },
+        {
+            "location" : "sorted_elements",
+            "target" : "elements_preserves_forall_2"
+        },
+        {
+            "location" : "elements_nodup_keys",
+            "target" : "elements_preserves_forall_2"
+        },
+        {
+            "location" : "elements_correct",
+            "target" : "Forall_In_2"
+        },
+        {
+            "location" : "kvs_insert_elements",
+            "target" : "elements_preserves_forall_6"
+        },
+        {
+            "location" : "fast_elements_correct",
+            "target" : "elements_correct"
+        },
+        {
+            "location" : "elements_correct",
+            "target" : "elements_preserves_forall_3"
+        },
+        {
+            "location" : "elements_nodup_keys",
+            "target" : "Forall_In_3"
+        },
+        {
+            "location" : "elements_nodup_keys",
+            "target" : "forall_fst_3"
+        },
+        {
+            "location" : "elements_complete",
+            "target" : "in_or_app_1"
+        },
+        {
+            "location" : "sorted_elements",
+            "target" : "forall_fst_2"
+        },
+        {
+            "location" : "NoDup_append",
+            "target" : "in_app_or"
+        },
+        {
+            "location" : "elements_correct_inverse",
+            "target" : "in_or_app_2"
+        },
+        {
+            "location" : "elements_complete_inverse",
+            "target" : "elements_preserves_forall_2"
+        },
+        {
+            "location" : "kvs_insert_elements",
+            "target" : "kvs_insert_split_1"
+        },
+        {
+            "location" : "fast_elements_eq_elements",
+            "target" : "fast_elements_tr_helper"
+        },
+        {
+            "location" : "fast_elements_tr_helper",
+            "target" : "app_assoc"
+        },
+        {
+            "location" : "elements_complete_inverse",
+            "target" : "Forall_In_2"
+        },
+        {
+            "location" : "kvs_insert_elements",
+            "target" : "elements_preserves_forall_3"
+        },
+        {
+            "location" : "elements_correct",
+            "target" : "Forall_In_3"
+        },
+        {
+            "location" : "elements_nodup_keys",
+            "target" : "elements_preserves_forall_3"
+        },
+        {
+            "location" : "elements_complete_inverse",
+            "target" : "in_app_or"
+        },
+        {
+            "location" : "elements_complete",
+            "target" : "in_or_app_2"
+        },
+        {
+            "location" : "sorted_elements",
+            "target" : "forall_fst_1"
+        },
+        {
+            "location" : "insert_BST",
+            "target" : "ForallT_insert_1"
+        },
+        {
+            "location" : "elements_nodup_keys",
+            "target" : "Forall_In_4"
+        },
+        {
+            "location" : "elements_nodup_keys",
+            "target" : "forall_fst_4"
+        },
+        {
+            "location" : "kvs_insert_elements",
+            "target" : "kvs_insert_split_2"
+        },
+        {
+            "location" : "elements_correct",
+            "target" : "elements_preserves_forall_4"
+        },
+        {
+            "location" : "elements_correct_inverse",
+            "target" : "in_or_app_1"
+        },
+        {
+            "location" : "elements_complete_inverse",
+            "target" : "elements_preserves_forall_1"
+        },
+        {
+            "location" : "elements_correct",
+            "target" : "Forall_In_4"
+        },
+        {
+            "location" : "elements_nodup_keys",
+            "target" : "elements_preserves_forall_4"
+        },
+        {
+            "location" : "fast_elements_correct",
+            "target" : "fast_elements_eq_elements"
+        },
+        {
+            "location" : "elements_complete_inverse",
+            "target" : "Forall_In_1"
+        },
+        {
+            "location" : "kvs_insert_elements",
+            "target" : "elements_preserves_forall_4"
+        }
+    ],
+
+    "perm" : [
+        {
+            "location" : "maybe_swap_correct",
+            "target" : "maybe_swap_perm"
+        }
+    ],
+
+    "bagperm" : [
+        {
+            "location" : "bag_perm",
+            "target" : "bag_eqv_uncons"
+        },
+        {
+            "location" : "bag_perm",
+            "target" : "count_insert_other"
+        },
+        {
+            "location" : "bag_perm",
+            "target" : "bag_cons_inv"
+        },
+        {
+            "location" : "bag_eqv_iff_perm",
+            "target" : "bag_perm"
+        },
+        {
+            "location" : "bag_perm",
+            "target" : "Permutation_middle"
+        },
+        {
+            "location" : "perm_bag",
+            "target" : "bag_eqv_cons"
+        },
+        {
+            "location" : "bag_eqv_iff_perm",
+            "target" : "perm_bag"
+        },
+        {
+            "location" : "perm_bag",
+            "target" : "bag_eqv_trans"
+        },
+        {
+            "location" : "bag_perm",
+            "target" : "app_comm_cons_1"
+        },
+        {
+            "location" : "sort_bag",
+            "target" : "insert_bag"
+        },
+        {
+            "location" : "bag_perm",
+            "target" : "app_comm_cons_2"
+        }
+    ],
+
+    "redblack" : [
+        {
+            "location" : "lookup_ins_eq",
+            "target" : "ins_BST_2"
+        },
+        {
+            "location" : "ins_BST",
+            "target" : "balance_BST_2"
+        },
+        {
+            "location" : "lookup_ins_neq",
+            "target" : "balance_lookup_1"
+        },
+        {
+            "location" : "lookup_ins_neq",
+            "target" : "insP_1"
+        },
+        {
+            "location" : "insert_BST",
+            "target" : "ins_BST"
+        },
+        {
+            "location" : "lookup_ins_neq",
+            "target" : "ins_BST_2"
+        },
+        {
+            "location" : "lookup_insert_neq",
+            "target" : "lookup_ins_eq"
+        },
+        {
+            "location" : "RB_blacken_root",
+            "target" : "RB_blacken_parent_2"
+        },
+        {
+            "location" : "ForallT_less",
+            "target" : "ForallT_imp"
+        },
+        {
+            "location" : "lookup_ins_neq",
+            "target" : "insP_2"
+        },
+        {
+            "location" : "lookup_ins_neq",
+            "target" : "balance_lookup_2"
+        },
+        {
+            "location" : "ins_BST",
+            "target" : "balance_BST_1"
+        },
+        {
+            "location" : "lookup_insert_eq",
+            "target" : "lookup_ins_eq"
+        },
+        {
+            "location" : "insert_RB",
+            "target" : "RB_blacken_root"
+        },
+        {
+            "location" : "lookup_ins_eq",
+            "target" : "ins_BST_1"
+        },
+        {
+            "location" : "insert_RB",
+            "target" : "ins_red"
+        },
+        {
+            "location" : "elementsP",
+            "target" : "elements_trP"
+        },
+        {
+            "location" : "lookup_ins_neq",
+            "target" : "ins_BST_1"
+        },
+        {
+            "location" : "RB_blacken_root",
+            "target" : "RB_blacken_parent_1"
+        },
+        {
+            "location" : "ins_BST",
+            "target" : "insP_1"
+        },
+        {
+            "location" : "ForallT_greater",
+            "target" : "ForallT_imp"
+        },
+        {
+            "location" : "lookup_ins_eq",
+            "target" : "insP_1"
+        },
+        {
+            "location" : "insert_BST",
+            "target" : "make_black_BST"
+        },
+        {
+            "location" : "insP",
+            "target" : "balanceP_1"
+        },
+        {
+        "location" : "lookup_ins_eq",
+        "target" : "balance_lookup_2"
+        },
+        {
+            "location" : "lookup_insert_neq",
+            "target" : "lookup_make_black"
+        },
+        {
+            "location" : "ins_red",
+            "target" : "ins_RB"
+        },
+        {
+            "location" : "lookup_ins_eq",
+            "target" : "insP_2"
+        },
+        {
+            "location" : "ins_BST",
+            "target" : "insP_2"
+        },
+        {
+            "location" : "insP",
+            "target" : "balanceP_2"
+        },
+        {
+            "location" : "lookup_ins_eq",
+            "target" : "balance_lookup_1"
+        },
+        {
+            "location" : "lookup_insert_eq",
+            "target" : "lookup_make_black"
+        }
+    ],
+    
+    "trie" : [
+        {
+            "location" : "addc_correct",
+            "target" : "succ_correct_4"
+        },
+        {
+            "location" : "compare_correct",
+            "target" : "positive2nat_pos_1"
+        },
+        {
+            "location" : "look_ins_other",
+            "target" : "look_leaf_5"
+        },
+        {
+            "location" : "look_ins_other",
+            "target" : "look_leaf_1"
+        },
+        {
+            "location" : "addc_correct",
+            "target" : "succ_correct_3"
+        },
+        {
+            "location" : "compare_correct",
+            "target" : "positive2nat_pos_2"
+        },
+        {
+            "location" : "look_ins_other",
+            "target" : "look_leaf_6"
+        },
+        {
+            "location" : "look_ins_other",
+            "target" : "look_leaf_2"
+        },
+        {
+            "location" : "addc_correct",
+            "target" : "succ_correct_6"
+        },
+        {
+            "location" : "addc_correct",
+            "target" : "succ_correct_2"
+        },
+        {
+            "location" : "compare_correct",
+            "target" : "positive2nat_pos_3"
+        },
+        {
+            "location" : "add_correct",
+            "target" : "positive2nat_pos_1"
+        },
+        {
+            "location" : "look_ins_other",
+            "target" : "look_leaf_3"
+        },
+        {
+            "location" : "addc_correct",
+            "target" : "succ_correct_5"
+        },
+        {
+            "location" : "compare_correct",
+            "target" : "positive2nat_pos_4"
+        },
+        {
+            "location" : "addc_correct",
+            "target" : "succ_correct_1"
+        },
+        {
+            "location" : "look_ins_other",
+            "target" : "look_leaf_4"
+        }
+    ]
+}
