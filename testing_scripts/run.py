@@ -49,7 +49,7 @@ def run_test(suite,test):
     folder = test_folder(suite_cleaned)
     cmd = f"cd {folder} && coqc {test}.v"
     result = subprocess.check_output(cmd, shell=True, text=True)
-    print(result)
+    return result
 
 def run_tests(suite,tests):
     results = []
