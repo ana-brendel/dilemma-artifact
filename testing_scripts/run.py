@@ -5,7 +5,12 @@ import sys
 
 def get_dict(path):
     with open(path) as tf:
-        return json.load(tf) 
+        return json.load(tf)
+
+def remove_suffix(input_string, suffix):
+    if suffix and input_string.endswith(suffix):
+        return input_string[:-len(suffix)]
+    return input_string 
     
 test_folder_dictionary = get_dict(os.path.join(os.getcwd(),"testing_scripts/test_folders.json"))
 test_dictionary = get_dict(os.path.join(os.getcwd(),"testing_scripts/tests.json"))
@@ -32,7 +37,7 @@ def get_target(info):
     else:
         for i in range(10):
             suffix = "_" + str(i)
-            removed = info["target"].removesuffix(suffix)
+            removed = remove_suffix(info["target"],(suffix))
             if removed in target_lemmas:
                 return target_lemmas[removed]
         return None
@@ -40,7 +45,7 @@ def get_target(info):
 def run_test(suite,test):
     suite_cleaned = suite
     for i in range(20):
-        suite_cleaned = suite_cleaned.removesuffix(f"_{i}")
+        suite_cleaned = remove_suffix(suite_cleaned,f"_{i}")
     folder = test_folder(suite_cleaned)
     cmd = f"cd {folder} && coqc {test}.v"
     result = subprocess.check_output(cmd, shell=True, text=True)
@@ -65,7 +70,7 @@ def run_group(group):
     tests = grouped_tests[group]
     suite = group
     for i in range(20):
-        suite = suite.removesuffix(f"_{i}")
+        suite = remove_suffix(suite,f"_{i}")
     results = run_tests(suite,tests)
     return (suite,results)
 
