@@ -93,8 +93,7 @@ def display(label,results):
     return "\n".join(contents)
 
 def create_file(label,contents):
-    parent = os.path.dirname(os.getcwd())
-    file = os.path.join(os.path.join(parent,"results"),label) + ".txt"
+    file = os.path.join(os.path.join(os.getcwd(),"results"),label) + ".txt"
     write (file,contents)
 
 def main():
