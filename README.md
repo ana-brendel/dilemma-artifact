@@ -27,6 +27,7 @@ within that benchmark. A "_grouping_" is a set of benchmarks within a benchmark 
     $ docker load -i <path to the tar>
     $ docker run -ti -v ${PWD}/results:/root/dilemma-artifact/results dilemma-artifact
     $ # bash make_all.sh
+    $ # eval $(opam config env)
     $ # bash run.sh <suite to run> 
     $ # bash run.sh <suite to run> 
         OR # bash run.sh group <group to run>

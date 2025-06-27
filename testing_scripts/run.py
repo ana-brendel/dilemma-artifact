@@ -84,11 +84,13 @@ def display(label,results):
     (suite,result_list) = results
     assert label.startswith(suite)
     for (test_label,target,r) in result_list:
+        contents.append("--------------------------------------------------------")
         contents.append(f"Test: {test_label}")
         contents.append(f"Target: {target}")
         processed = r.split("-------------------- RESULTS --------------------")
         final = processed[1] if len(processed) == 2 else ""
         contents.append(final)
+        contents.append("--------------------------------------------------------")
         contents.append("")
     return "\n".join(contents)
 
