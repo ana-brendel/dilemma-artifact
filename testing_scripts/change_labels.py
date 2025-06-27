@@ -7,9 +7,9 @@ def write(file,content):
     f.write(content)
     f.close()
 
-benchmark_folder = "/Users/anabrendel/Desktop/dilemma-artifact/benchmarks"
+benchmark_folder = "/Users/anabrendel/Desktop/dilemma-docker/dilemma-artifact/benchmarks"
 
-folders_with_tests =["/Users/anabrendel/Desktop/dilemma-artifact/benchmarks/lia/implications/tests"]
+folders_with_tests =["/Users/anabrendel/Desktop/dilemma-docker/dilemma-artifact/benchmarks/lia/implications/tests"]
 
 for suite in os.listdir(benchmark_folder):
     if suite.startswith("vfa") or suite == "lia" or suite == "clam":
@@ -18,8 +18,6 @@ for suite in os.listdir(benchmark_folder):
             if test == "tests" or test == "atomic" or test == "implication":
                 full_test = os.path.join(test_suite,test)
                 folders_with_tests.append(full_test)
-
-test = "/Users/anabrendel/Desktop/dilemma-artifact/tester.v"
 
 dilemma = "From Dilemma Require Import Dilemma."
 findlemma = "From LFindToo Require Import LFindToo."
@@ -47,3 +45,5 @@ def replace_all():
             assert test.endswith(".v")
             full_test = os.path.join(test_folder,test)
             replace(full_test)
+
+replace_all()
