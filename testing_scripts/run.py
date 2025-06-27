@@ -76,10 +76,13 @@ def run_group(group):
 
 def display(label,results):
     print(label)
-    for (test_label,target,r) in results:
+    print(results)
+    for test_label,target,r in results:
         print(f"Test: {test_label}")
         print(f"Target: {target}")
-        print(r)
+        processed = r.split("-------------------- RESULTS --------------------")
+        final = processed[1] if len(processed) == 2 else ""
+        print(final)
 
 def main():
     if len(sys.argv) == 2:
