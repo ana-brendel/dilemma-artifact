@@ -76,8 +76,9 @@ def run_group(group):
 
 def display(label,results):
     print(label)
-    print(results)
-    for test_label,target,r in results:
+    (suite,result_list) = results
+    assert label.startswith(suite)
+    for (test_label,target,r) in result_list:
         print(f"Test: {test_label}")
         print(f"Target: {target}")
         processed = r.split("-------------------- RESULTS --------------------")
