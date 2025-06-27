@@ -3,6 +3,11 @@ import json
 import subprocess
 import sys
 
+def write(file,content):
+    f = open(file, "w")
+    f.write(content)
+    f.close()
+
 def get_dict(path):
     with open(path) as tf:
         return json.load(tf)
@@ -75,31 +80,44 @@ def run_group(group):
     return (suite,results)
 
 def display(label,results):
-    print(label)
+    contents = []
     (suite,result_list) = results
     assert label.startswith(suite)
     for (test_label,target,r) in result_list:
-        print(f"Test: {test_label}")
-        print(f"Target: {target}")
+        contents.append(f"Test: {test_label}")
+        contents.append(f"Target: {target}")
         processed = r.split("-------------------- RESULTS --------------------")
         final = processed[1] if len(processed) == 2 else ""
-        print(final)
+        contents.append(final)
+        contents.append("")
+    return "\n".join(contents)
+
+def create_file(label,contents):
+    parent = os.path.dirname(os.getcwd())
+    file = os.path.join(os.path.join(parent,"results"),label) + ".txt"
+    write (file,contents)
 
 def main():
     if len(sys.argv) == 2:
         suite = sys.argv[1]
         results = run_suite(suite)
-        display(suite,results)
+        contents = display(suite,results)
+        label = f"suite_{suite}"
+        create_file(label,contents)
     elif len(sys.argv) == 3:
         assert "group" == sys.argv[1]
         group = sys.argv[2]
         results = run_group(group)
-        display(group,results)
+        contents = display(group,results)
+        label = f"group_{group}"
+        create_file(label,contents)
     else:
         for suite in test_dictionary:
             suite = sys.argv[1]
             results = run_suite(suite)
-            display(suite,results)
+            contents = display(suite,results)
+            label = f"suite_{suite}"
+            create_file(label,contents)
 
 if __name__ == "__main__":
     main()

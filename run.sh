@@ -6,3 +6,5 @@ cd benchmarks/vfa_perm/common && coq_makefile -f _CoqProject -o Makefile && make
 cd ../../..
 
 python3 testing_scripts/run.py $1
+cd ..
+touch hello.txt

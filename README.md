@@ -16,8 +16,16 @@ within that benchmark. A "_grouping_" is a set of benchmarks within a benchmark 
 |       merge                   |      17                     |       3          |
 |       perm                    |      1                      |       1          |
 |       priqueue                |      8                      |       1          |
-|       redblack                |      32                     |       8         |
+|       redblack                |      32                     |       8          |
 |       searchtree              |      59                     |       13         |
 |       selection               |      24                     |       2          |
 |       sort                    |      11                     |       1          |
 |       trie                    |      17                     |       1          |
+
+## running instructions
+```
+    $ docker load -i <path to the tar>
+    $ docker run -ti -v ${PWD}/results:/root/dilemma-artifact/results dilemma-artifact
+    $ # bash run.sh <suite to run> 
+        OR # bash run.sh group <group to run>
+```
