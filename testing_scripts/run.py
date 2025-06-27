@@ -53,8 +53,11 @@ def run_test(suite,test):
         suite_cleaned = remove_suffix(suite_cleaned,f"_{i}")
     folder = test_folder(suite_cleaned)
     cmd = f"cd {folder} && coqc {test}.v"
-    result = subprocess.check_output(cmd, shell=True, text=True)
-    return result
+    try:
+        result = subprocess.check_output(cmd, shell=True, text=True)
+        return result
+    except:
+        return ""
 
 def run_tests(suite,tests):
     results = []

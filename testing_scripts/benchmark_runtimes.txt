@@ -47,6 +47,9 @@ NOTE: All times' decimals are chopped off -- that is each decimal is rounded up.
 *** NOTE: If a group has time beyond around 20 minutes, it means that is contains a 
 single test (plus maybe a test that doesn't run because it is a contradiction or out of  
 scope) that took beyond 20 minutes.
+*** NOTE: For clam_atomic_15, these tests fail to terminate when we ran them, so we don't
+expect them to complete (thus have no timing data for them). In our results, these are
+all marked as failures.
 ------------------------------------------------------------------------------------
 -------------- EXPECTED RUNTIMES FOR EACH BENCHMARK WHEN BROKEN DOWN ---------------
 ------------------------------------------------------------------------------------
@@ -68,6 +71,7 @@ scope) that took beyond 20 minutes.
 |       clam_atomic_12          |      1249                    |       21          |
 |       clam_atomic_13          |      1200                    |       20          |
 |       clam_atomic_14          |      167                     |       3           |
+|       clam_atomic_15          |      ---                     |       --          |
 ------------------------------------------------------------------------------------
 |       lia_implication_1       |      933                     |       16          |
 |       lia_implication_2       |      2748                    |       46          |
