@@ -23,6 +23,7 @@ within that benchmark. A "_grouping_" is a set of benchmarks within a benchmark 
 |       trie                    |      17                     |       1          |
 
 ## running instructions
+To download the `.tar` file, you should go to: https://drive.google.com/file/d/10ljcVg4etN4QxRDx3qXKhcEiiUPG-dsp/view?usp=sharing. 
 ```
     $ docker load -i <path to the tar>
     $ docker run -ti -v ${PWD}/results:/root/dilemma-artifact/results dilemma-artifact
@@ -32,3 +33,5 @@ within that benchmark. A "_grouping_" is a set of benchmarks within a benchmark 
     $ # bash run.sh <suite to run> 
         OR # bash run.sh group <group to run>
 ```
+
+There are more detailed instructions in the pdf listed `ArtifactInstructions.pdf`. 
