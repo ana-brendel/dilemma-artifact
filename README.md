@@ -6,7 +6,7 @@ within that benchmark. A "_grouping_" is a set of benchmarks within a benchmark 
 (except in cases where a single benchmark takes more than 20 minutes).
 
 | Benchmark Suite               | Number of Test Locations    | Number of ~20 min Groups |
-| :------------------:            | :------------------------:  | :------------------------:|
+| :------------------:          | :------------------------:  | :------------------------:|
 |       clam_implication        |      20                     |       1          |
 |       clam_atomic             |      151                    |       14         |
 |       lia_implication         |      9                      |       3          |
@@ -26,6 +26,8 @@ within that benchmark. A "_grouping_" is a set of benchmarks within a benchmark 
 ```
     $ docker load -i <path to the tar>
     $ docker run -ti -v ${PWD}/results:/root/dilemma-artifact/results dilemma-artifact
+    $ # bash make_all.sh
+    $ # bash run.sh <suite to run> 
     $ # bash run.sh <suite to run> 
         OR # bash run.sh group <group to run>
 ```
