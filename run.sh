@@ -1,3 +1,3 @@
 #!/bin/bash
 
-python3 run.py $1
+python3 testing_scripts/run.py $1
