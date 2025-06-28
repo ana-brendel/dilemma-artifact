@@ -27,7 +27,7 @@ took too long to run (due to having too large of a search sapce) and/or failed t
 when running the groups, these cases are isolated.
 
 ## running instructions
-To download the `.tar` file, you should go to: https://drive.google.com/file/d/10ljcVg4etN4QxRDx3qXKhcEiiUPG-dsp/view?usp=sharing. 
+To download the `.tar` file, you should go to: https://drive.google.com/file/d/1MfZEAXLgZngYH3zIkloVL1-9X2snvzyY/view?usp=sharing.
 ```
     $ docker load -i <path to the tar>
     $ docker run -ti -v ${PWD}/results:/root/dilemma-artifact/results dilemma-artifact
