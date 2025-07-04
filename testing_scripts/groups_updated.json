@@ -1,0 +1,733 @@
+{
+   "redblack_1" : [
+               "lookup_ins_eq_by_ins_BST_2"
+           ],
+   "redblack_2" : [
+               "lookup_ins_neq_by_balance_lookup_1"
+           ],
+   "redblack_3" : [
+               "lookup_ins_neq_by_insP_1",
+               "insert_BST_by_ins_BST"
+            ],
+   "redblack_4" : [
+               "lookup_ins_neq_by_balance_lookup_2"
+           ],
+   "redblack_5" : [
+               "ins_BST_by_balance_BST_1",
+               "lookup_insert_eq_by_lookup_ins_eq",
+               "insert_RB_by_RB_blacken_root",
+               "lookup_ins_eq_by_ins_BST_1"
+            ],
+   "redblack_6" : [
+               "lookup_ins_eq_by_insP_1",
+               "insert_BST_by_make_black_BST"
+           ],
+   "redblack_7" : [
+               "lookup_ins_eq_by_balance_lookup_2",
+               "lookup_insert_neq_by_lookup_make_black",
+               "ins_red_by_ins_RB"
+            ],
+   "redblack_8" : [
+               "insP_by_balanceP_2",
+               "lookup_ins_eq_by_balance_lookup_1"
+            ],
+   "redblack_9" : [
+               "lookup_insert_eq_by_lookup_make_black"
+           ],
+    "redblack_10" : [
+               "lookup_ins_eq_by_insP_2",
+               "ins_BST_by_insP_2"
+           ],
+    "redblack_11" : [
+               "insP_by_balanceP_1"
+           ],
+    "redblack_12" : [
+               "insert_RB_by_ins_red",
+               "elementsP_by_elements_trP",
+               "lookup_ins_neq_by_ins_BST_1"
+            ],
+    "redblack_13" : [
+               "RB_blacken_root_by_RB_blacken_parent_1",
+               "ins_BST_by_insP_1",
+               "ForallT_greater_by_ForallT_imp"
+           ],
+    "redblack_14" : [
+               "lookup_insert_neq_by_lookup_ins_eq",
+               "RB_blacken_root_by_RB_blacken_parent_2",
+               "ForallT_less_by_ForallT_imp",
+               "lookup_ins_neq_by_insP_2"
+           ],
+    "redblack_15" : [
+               "lookup_ins_neq_by_ins_BST_2"
+            ],
+    "redblack_16" : [
+               "ins_BST_by_balance_BST_2"
+           ],
+   "binom_1" : [
+               "smash_elems_by_app_nil_r_3",
+               "smash_elems_by_Permutation_trans_1",
+               "priqueue_perm_by_Permutation_app"
+           ],
+   "binom_2" : [
+               "join_valid_by_smash_valid_4",
+               "join_valid_by_carry_valid_2",
+               "abs_perm_by_Permutation_app"
+            ],
+   "binom_3" : [
+               "smash_elems_by_Permutation_trans_2",
+               "smash_elems_by_app_nil_r_4"
+           ],
+   "binom_4" : [
+               "join_valid_by_carry_valid_1",
+               "join_valid_by_smash_valid_3",
+               "can_relate_by_priqq_can_relate"
+            ],
+   "binom_5" : [
+               "smash_elems_by_Permutation_app_1",
+               "abs_perm_by_tree_perm",
+               "tree_elems_ext_by_Permutation_trans"
+            ],
+   "binom_6" : [
+               "smash_elems_by_app_nil_r_1"
+           ],
+   "binom_7" : [
+               "smash_elems_by_Permutation_trans_3",
+               "priqueue_perm_by_Permutation_trans_2"
+            ],
+   "binom_8" : [
+               "join_valid_by_smash_valid_2"
+           ],
+   "binom_9" : [
+               "tree_perm_by_Permutation_trans_2",
+               "insert_priq_by_carry_valid_2",
+               "smash_elems_by_Permutation_app_comm_2"
+           ],
+   "binom_10" : [
+               "merge_priq_by_join_valid",
+               "delete_max_Some_priq_by_delete_max_aux_priq"
+            ],
+   "binom_11" : [
+               "abs_perm_by_Permutation_trans_1"
+           ],
+   "binom_12" : [
+               "carry_valid_by_smash_valid"
+           ],
+   "binom_13" : [
+               "join_valid_by_smash_valid_1"
+           ],
+   "binom_14" : [
+               "tree_perm_by_Permutation_trans_1",
+               "smash_elems_by_app_nil_r_6"
+            ],
+   "binom_15" : [
+               "insert_priq_by_carry_valid_1"
+           ],
+   "binom_16" : [
+               "smash_valid_by_smash_valid_helper2",
+               "delete_max_aux_priq_by_unzip_preq"
+           ],
+    "binom_17" : [
+               "priqueue_elems_ext_by_Permutation_trans",
+               "smash_elems_by_Permutation_app_comm_1"
+           ],
+    "binom_18" : [
+               "smash_elems_by_app_nil_r_2",
+               "priqueue_perm_by_Permutation_trans_1",
+               "abs_perm_by_priqueue_perm"
+           ],
+    "binom_19" : [
+               "smash_valid_by_smash_valid_helper1",
+               "tree_perm_by_Permutation_app"
+            ],
+    "binom_20" : [
+               "smash_elems_by_app_nil_r_5",
+               "tree_elems_ext_by_Permutation_nil"
+           ],
+    "binom_21" : [
+               "abs_perm_by_Permutation_trans_2",
+               "delete_max_Some_priq_by_join_valid"
+           ],
+    "binom_22" : [
+               "priqq_can_relate_by_tree_can_relate",
+               "smash_elems_by_Permutation_app_comm_3"
+           ],
+    "binom_23" : [
+               "priqueue_elems_ext_by_Permutation_nil",
+               "priqueue_perm_by_tree_perm"
+           ],
+   "selection_1" : [
+               "selection_sort_is_correct_by_selection_sort_sorted",
+               "selection_sort_is_correct_by_selection_sort_perm",
+               "cons_of_small_maintains_sort_ind_list_by_Permutation_in",
+               "select_smallest_by_select_fst_leq_1"
+            ],
+   "selection_2" : [
+               "select_in_by_Permutation_in",
+               "selsort_sorted_by_cons_of_small_maintains_sort",
+               "cons_of_small_maintains_sort_ind_list_by_selsort_perm",
+               "select_in_by_select_perm"
+            ],
+   "selection_3" : [
+               "cons_of_small_maintains_sort_ind_length_by_select_in",
+               "select_smallest_by_select_fst_leq_2",
+               "selsort_perm_by_select_rest_length",
+               "cons_of_small_maintains_sort_ind_length_by_select_rest_length"
+            ],
+   "selection_4" : [
+               "selsort_sorted_by_select_rest_length_1",
+               "cons_of_small_maintains_sort_ind_list_by_le_all__le_one",
+               "cons_of_small_maintains_sort_ind_length_by_le_all__le_one",
+               "selsort_sorted_by_select_smallest"
+           ],
+   "selection_5" : [
+               "selsort_sorted_by_select_rest_length_2",
+               "le_all__le_one_by_Forall_forall",
+               "cons_of_small_maintains_sort_ind_length_by_select_smallest",
+               "selection_sort_perm_by_selsort_perm"
+            ],
+   "selection_6" : [
+               "selsort_perm_by_select_perm",
+               "selection_sort_sorted_by_selsort_sorted",
+               "select_rest_length_by_select_perm",
+               "select_rest_length_by_Permutation_length"
+           ],
+   "perm" : [
+               "maybe_swap_correct_by_maybe_swap_perm"
+           ],
+   "bagperm_1" : [
+               "bag_perm_by_bag_eqv_uncons",
+               "bag_perm_by_count_insert_other",
+               "bag_perm_by_bag_cons_inv",
+               "bag_eqv_iff_perm_by_bag_perm"
+            ],
+   "bagperm_2" : [
+               "bag_perm_by_Permutation_middle",
+               "perm_bag_by_bag_eqv_cons",
+               "bag_eqv_iff_perm_by_perm_bag",
+               "perm_bag_by_bag_eqv_trans"
+            ],
+   "bagperm_3" : [
+               "bag_perm_by_app_comm_cons_1",
+               "sort_bag_by_insert_bag",
+               "bag_perm_by_app_comm_cons_2"
+           ],
+   "lia_atomic_1" : [
+               "list_rev2_append_by_append_single",
+               "queue_push_to_list_by_append_nil_1",
+               "list_double_rev_by_rev_append"
+            ],
+   "lia_atomic_2" : [
+               "list_len_rev_by_len_append",
+               "list_rev2_append_by_rev2_append_aux",
+               "list_rev2_len_by_plus_n_0",
+               "queue_push_by_len_app_1"
+            ],
+   "lia_atomic_3" : [
+               "queue_push_to_list_by_append_nil_3",
+               "list_rev_append_cons_aux_by_append_assoc_1",
+               "list_rev_append_cons_by_rev_append_cons_aux"
+            ],
+   "lia_atomic_4" : [
+               "queue_push_by_len_app_2",
+               "list_rev_eq_rev2_by_rev2_append",
+               "list_rev_append_by_app_nil",
+               "list_rev_append_cons_aux_by_append_assoc_2"
+            ],
+   "lia_atomic_5" : [
+               "list_rev_append_by_app_assoc"
+           ],
+    "lia_atomic_6" : [
+               "list_rev_append_by_append_nil",
+               "tree_size_by_le_O_n",
+               "queue_push_by_len_rev",
+               "heap_size_by_le_O_n"
+           ],
+    "lia_atomic_7" : [
+               "list_rev_append_cons_by_append_assoc",
+               "queue_len_by_len_app",
+               "tree_insert_all_by_insert_n_S"
+           ],
+    "lia_atomic_8" : [
+               "tree_insert_size_by_plus_n_Sm",
+               "list_rev2_len_lem_by_plus_n_Sm",
+               "list_rev2_len_by_list_rev2_len_lem",
+               "queue_len_by_len_rev"
+           ],
+    "lia_atomic_9" : [
+               "list_rev_append_by_append_assoc",
+               "queue_push_to_list_by_append_nil_2",
+               "queue_popback_by_len_butlast"
+           ],
+   "clam_implication_1" : [
+               "goal38_1",
+               "goal50_3",
+               "goal41_3",
+               "goal49_2"
+            ],
+   "clam_implication_2" : [
+               "goal62_2",
+               "goal38_2",
+               "goal42",
+               "goal49_1"
+            ],
+   "clam_implication_3" : [
+               "goal62_1",
+               "goal47_1",
+               "goal50_1",
+               "goal69_1"
+            ],
+   "clam_implication_4" : [
+               "goal41_1",
+               "goal44",
+               "goal47_2",
+               "goal50_2"
+            ],
+   "clam_implication_5" : [
+               "goal14",
+               "goal41_2",
+               "goal69_2",
+               "goal49_3"
+           ],
+   "searchtree_1" : [
+               "elements_preserves_relation_by_in_app_or",
+               "elements_nodup_keys_by_NoDup_append",
+               "elements_complete_by_in_or_app_3",
+               "elements_nodup_keys_by_Forall_In_1"
+            ],
+   "searchtree_2" : [
+               "kvs_insert_elements_by_kvs_insert_split_3"
+           ],
+   "searchtree_3" : [
+               "sorted_elements_by_elements_preserves_forall_1",
+               "elements_nodup_keys_by_map_app",
+               "sorted_elements_by_map_app"
+            ],
+   "searchtree_4" : [
+               "elements_nodup_keys_by_map_cons",
+               "sorted_elements_by_sorted_app"
+           ],
+   "searchtree_5" : [
+               "elements_correct_inverse_by_in_or_app_3"
+           ],
+   "searchtree_6" : [
+               "sorted_elements_by_map_cons"
+           ],
+   "searchtree_7" : [
+               "elements_correct_by_in_app_or",
+               "kvs_insert_elements_by_elements_preserves_forall_2",
+               "sorted_elements_by_elements_preserves_forall_2",
+               "elements_nodup_keys_by_elements_preserves_forall_2"
+            ],
+   "searchtree_8" : [
+               "elements_complete_by_in_or_app_1",
+               "sorted_elements_by_forall_fst_2",
+               "NoDup_append_by_in_app_or"
+           ],
+   "searchtree_9" : [
+               "elements_correct_inverse_by_in_or_app_2",
+               "elements_complete_inverse_by_elements_preserves_forall_2"
+           ],
+   "searchtree_10" : [
+               "fast_elements_tr_helper_by_app_assoc",
+               "elements_complete_inverse_by_Forall_in_2",
+               "kvs_insert_elements_by_elements_preserves_forall_3"
+           ],
+   "searchtree_11" : [
+               "elements_complete_by_in_or_app_2",
+               "sorted_elements_by_forall_fst_1",
+               "insert_BST_by_ForallT_insert_1"
+           ],
+   "searchtree_12" : [
+               "kvs_insert_elements_by_kvs_insert_split_2"
+           ],
+   "searchtree_13" : [
+               "elements_correct_inverse_by_in_or_app_1",
+               "elements_complete_inverse_by_elements_preserves_forall_1",
+               "elements_correct_by_Forall_in_4",
+               "elements_nodup_keys_by_elements_preserves_forall_4"
+            ],
+   "searchtree_14" : [
+               "fast_elements_correct_by_fast_elements_eq_elements",
+               "elements_complete_inverse_by_Forall_in_1",
+               "kvs_insert_elements_by_elements_preserves_forall_4"
+           ],
+    "searchtree_15" : [
+               "elements_correct_by_elements_preserves_forall_4"
+           ],
+    "searchtree_16" : [
+               "elements_nodup_keys_by_Forall_In_4",
+               "elements_nodup_keys_by_forall_fst_4"
+           ],
+    "searchtree_17" : [
+               "elements_correct_by_Forall_in_3",
+               "elements_nodup_keys_by_elements_preserves_forall_3",
+               "elements_complete_inverse_by_in_app_or"
+           ],
+    "searchtree_18" : [
+               "kvs_insert_elements_by_kvs_insert_split_1",
+               "fast_elements_eq_elements_by_fast_elements_tr_helper"
+           ],
+    "searchtree_19" : [
+               "elements_correct_by_Forall_in_2",
+               "kvs_insert_elements_by_elements_preserves_forall_6",
+               "fast_elements_correct_by_elements_correct"
+            ],
+    "searchtree_20" : [
+               "elements_correct_by_elements_preserves_forall_3",
+               "elements_nodup_keys_by_Forall_In_3",
+               "elements_nodup_keys_by_forall_fst_3"
+           ],
+    "searchtree_21" : [
+               "elements_correct_by_Forall_in_1",
+               "elements_nodup_keys_by_elements_preserves_forall_1",
+               "kvs_insert_elements_by_elements_preserves_forall_5"
+            ],
+    "searchtree_22" : [
+               "elements_nodup_keys_by_forall_fst_2",
+               "elements_nodup_keys_by_Forall_In_2",
+               "elements_correct_by_elements_preserves_forall_2"
+           ],
+    "searchtree_23" : [
+               "kvs_insert_elements_by_elements_preserves_forall_1"
+           ],
+    "searchtree_24" : [
+               "elements_nodup_keys_by_forall_fst_1",
+               "elements_correct_by_elements_preserves_forall_1",
+               "elements_preserves_forall_by_Forall_app"
+           ],
+   "merge_1" : [
+               "sorted_merge_by_sorted_merge1_2",
+               "mergesort_perm_by_Permutation_app",
+               "mergesort_sorts_by_sorted_merge"
+            ],
+   "merge_2" : [
+               "split_perm_by_Permutation_cons_app",
+               "mergesort_correct_by_mergesort_perm",
+               "mergesort_perm_by_split_perm",
+               "merge_perm_by_app_nil_r"
+            ],
+   "merge_3" : [
+               "merge_perm_by_Permutation_app_comm_2",
+               "mergesort_correct_by_mergesort_sorts",
+               "mergesort_perm_by_merge_perm"
+           ],
+    "merge_4" : [
+               "merge_perm_by_Permutation_trans_2",
+               "merge_perm_by_Permutation_app_comm_1",
+               "merge_perm_by_merge_nil_l",
+               "merge_perm_by_Permutation_trans_1"
+           ],
+    "merge_5" : [
+               "mergesort_perm_by_Permutation_trans_1",
+               "sorted_merge_by_sorted_merge1_1",
+               "mergesort_perm_by_Permutation_trans_2"
+           ],
+   "clam_atomic_1" : [
+               "goal59_by_rev_rev_cons",
+               "goal12_by_append_assoc",
+               "qreva_append_by_qreva_nil_2",
+               "goal21_by_append_assoc_1"
+               ],
+   "clam_atomic_2" : [
+               "goal32_by_rotate_len_append",
+               "goal45_by_Nat_beq_refl_1",
+               "goal29_by_rev_involutive",
+               "goal28_by_append_nil_1"
+            ],
+   "clam_atomic_3" : [
+               "goal5_by_len_cons_succ",
+               "rev_rev_by_rev_rev_cons",
+               "goal56_by_drop_succ_2",
+               "goal40_by_Nat_beq_refl_1"
+            ],
+   "clam_atomic_4" : [
+               "goal10_by_append_assoc",
+               "goal78_by_rev_append",
+               "qreva_append_by_qreva_nil_1",
+               "goal80_by_rev_append"
+            ],
+   "clam_atomic_5" : [
+               "goal34_by_plus_commut",
+               "goal27_by_qreva_append",
+               "goal33_by_qfac_mult"
+            ],
+   "clam_atomic_6" : [
+               "rev_append_by_append_nil_2",
+               "goal77_by_append_assoc",
+               "goal82_by_qreva_rev",
+               "goal18_by_append_nil"
+               ],
+   "clam_atomic_7" : [
+               "goal57_by_drop_succ_2",
+               "goal6_by_plus_comm",
+               "goal10_by_append_nil_2"
+            ],
+   "clam_atomic_8" : [
+               "append_rev_cons_by_append_assoc",
+               "goal78_by_rev_rev",
+               "rev_involutive_by_rev_append"
+           ],
+   "clam_atomic_9" : [
+               "goal82_by_rev_append",
+               "goal8_by_drop_nil_2",
+               "goal70_by_Nat_beq_refl_2",
+               "goal2_by_len_append_nil"
+               ],
+   "clam_atomic_10" : [
+               "rev_append_by_append_assoc"
+           ],
+   "clam_atomic_11" : [
+               "goal82_by_append_assoc",
+               "goal26_by_plus_comm",
+               "goal28_by_append_nil_3",
+               "goal28_by_append_assoc",
+               "goal10_by_append_rev_cons"
+               ],
+   "clam_atomic_12" : [
+               "goal11_by_append_assoc_2",
+               "goal5_by_len_append_nil",
+               "goal80_by_rev_rev_1",
+               "goal70_by_Nat_beq_refl_1"
+               ],
+   "clam_atomic_13" : [
+               "len_append_by_len_cons_succ",
+               "goal4_by_len_cons_succ",
+               "goal77_by_append_nil",
+               "goal30_by_append_nil"
+               ],
+   "clam_atomic_14" : [
+               "goal29_by_qreva_append",
+               "goal40_by_append_cons"
+           ],
+    "clam_atomic_16" : [
+               "goal40_by_subset_append",
+               "goal78_by_append_assoc",
+               "goal13_by_plus_succ_swap",
+               "goal11_by_rev_rev"
+               ],
+    "clam_atomic_17" : [
+               "goal18_by_append_assoc_2",
+               "goal17_by_rev_rev_1",
+               "goal23_by_len_append",
+               "goal70_by_Nat_beq_eq"
+               ],
+    "clam_atomic_18" : [
+               "qreva_append_by_append_nil",
+               "goal11_by_append_assoc_1",
+               "goal21_by_append_nil",
+               "goal80_by_rev_rev_2"
+           ],
+    "clam_atomic_19" : [
+               "goal8_by_drop_nil_1",
+               "goal78_by_append_nil",
+               "goal31_by_qreva_append",
+               "goal40_by_subset_refl_2"
+               ],
+    "clam_atomic_20" : [
+               "goal81_by_append_assoc",
+               "goal7_by_plus_comm_2",
+               "goal80_by_append_nil",
+               "goal19_by_rev_rev_1"
+               ],
+    "clam_atomic_21" : [
+               "goal10_by_append_nil_1",
+               "goal15_by_plus_succ_swap_2",
+               "goal29_by_append_nil"
+           ],
+    "clam_atomic_22" : [
+               "goal27_by_append_nil",
+               "goal2_by_len_cons_succ",
+               "goal57_by_drop_succ_3",
+               "goal70_by_less_not_refl"
+           ],
+    "clam_atomic_23" : [
+               "goal1_by_plus_succ",
+               "goal22_by_even_odd_append_len",
+               "goal40_by_subset_refl_1",
+               "goal29_by_rev_qreva_nil"
+            ],
+    "clam_atomic_24" : [
+               "len_append_by_append_nil",
+               "goal54_by_drop_succ",
+               "qreva_rev_by_append_assoc"
+            ],
+    "clam_atomic_25" : [
+               "goal6_by_len_append_2",
+               "goal18_by_append_assoc_1",
+               "goal17_by_rev_rev_2"
+           ],
+    "clam_atomic_26" : [
+               "goal19_by_rev_rev_2",
+               "goal7_by_plus_comm_1",
+               "goal15_by_plus_succ_swap_1"
+           ],
+    "clam_atomic_27" : [
+               "goal6_by_len_rev",
+               "goal40_by_append_single",
+               "goal28_by_append_nil_2",
+               "goal8_by_drop_cons_1"
+               ],
+    "clam_atomic_28" : [
+               "goal40_by_Nat_beq_refl_2",
+               "goal56_by_drop_succ_1",
+               "goal11_by_rev_rev_cons"
+           ],
+    "clam_atomic_29" : [
+               "goal82_by_rev_rev",
+               "goal17_by_rev_rev_3",
+               "qreva_append_by_append_assoc"
+           ],
+    "clam_atomic_30" : [
+               "goal28_by_qrevflat_append",
+               "goal8_by_drop_nil_3",
+               "goal20_by_even_odd_append_len"
+    ],
+    "clam_atomic_31" : [
+               "goal22_by_append_nil",
+               "goal31_by_qreva_nil"
+           ],
+    "clam_atomic_32" : [
+               "qreva_nil_by_append_assoc",
+               "goal57_by_drop_succ_1",
+               "goal21_by_append_assoc_2"
+           ],
+    "clam_atomic_33" : [
+               "goal30_by_rev_involutive",
+               "goal8_by_drop_cons_2",
+               "goal11_by_append_nil",
+               "goal81_by_qreva_rev"
+            ],
+    "clam_atomic_34" : [
+               "rev_append_by_append_nil_1",
+               "goal9_by_drop_assoc",
+               "goal8_by_drop_cons_assoc",
+               "goal34_by_plus_qmult"
+           ],
+    "clam_atomic_35" : [
+               "goal48_by_insort_len",
+               "goal7_by_plus_comm_3",
+               "goal16_by_even_odd_plus"
+           ],
+    "clam_atomic_15a" : [
+                "mult_assoc_by_distrib",
+                "goal35_by_mult_assoc_1",
+                "goal35_by_mult_qexp",
+                "goal35_by_mult_commut"
+            ],
+    "clam_atomic_15b" : [
+                "goal35_by_mult_assoc_2",
+                "goal85_by_plus_commut",
+                "goal85_by_plus_assoc",
+                "distrib_by_plus_assoc_1"
+                ],
+    "clam_atomic_15c" : [
+                "goal46_by_eqb_refl_2",
+                "mult_commut_by_mult_succ",
+                "goal33_by_mult_commut",
+                "rev_append_by_append_rev_cons"
+                ],
+    "clam_atomic_15d" : [
+                "plus_commut_by_plus_zero",
+                "goal45_by_Nat_beq_refl_2",
+                "goal7_by_plus_comm_4",
+                "goal86_by_mult_assoc"
+                ],
+    "clam_atomic_15e" : [
+                "goal84_by_mult_commut",
+                "goal46_by_eqb_refl_1",
+                "mult_commut_by_mult_zero",
+                "goal84_by_mult_assoc"
+                ],
+    "clam_atomic_15f" : [
+                "distrib_by_plus_assoc_3",
+                "mult_succ_by_plus_assoc_1",
+                "goal34_by_plus_assoc_1",
+                "mult_succ_by_plus_succ_2"
+                ],
+    "clam_atomic_15g" : [
+                "goal33_by_mult_assoc",
+                "mult_succ_by_plus_commut",
+                "goal6_by_len_append_1",
+                "distrib_by_plus_commut"
+                ],
+    "clam_atomic_15h" : [
+                "mult_succ_by_plus_assoc_2",
+                "goal34_by_plus_assoc_2",
+                "plus_commut_by_plus_succ",
+                "goal86_by_mult_commut",
+                "mult_succ_by_plus_succ_1"
+            ],
+   "sort1" : [
+               "sort_perm_by_insert_perm",
+               "insertion_sort_correct_by_sort_perm",
+               "insert_sortedd_by_sortedd_cons_1",
+               "insert_sorted_by_insert_swap"
+            ],
+   "sort2" : [
+               "sortedd_cons_by_nth_succ_2",
+               "sort_sortedd_by_insert_sortedd",
+               "sorted_sortedd_by_sortedd_cons",
+               "insertion_sort_correct_by_sort_sorted"
+            ],
+   "sort3" : [
+               "insert_sortedd_by_sortedd_cons_2",
+               "sortedd_cons_by_nth_succ_1",
+               "sort_sorted_by_insert_sorted"
+           ],
+   "trie1" : [
+               "addc_correct_by_succ_correct_4",
+               "compare_correct_by_positive2nat_pos_1",
+               "look_ins_other_by_look_leaf_5",
+               "look_ins_other_by_look_leaf_1"
+            ],
+   "trie2" : [
+               "addc_correct_by_succ_correct_3",
+               "compare_correct_by_positive2nat_pos_2",
+               "look_ins_other_by_look_leaf_6",
+               "look_ins_other_by_look_leaf_2"
+            ],
+   "trie3" : [
+               "addc_correct_by_succ_correct_6",
+               "addc_correct_by_succ_correct_2",
+               "compare_correct_by_positive2nat_pos_3",
+               "add_correct_by_positive2nat_pos_1"
+            ],
+   "trie4" : [
+               "look_ins_other_by_look_leaf_3",
+               "addc_correct_by_succ_correct_5",
+               "compare_correct_by_positive2nat_pos_4"
+            ],
+   "trie5" : [
+               "addc_correct_by_succ_correct_1",
+               "look_ins_other_by_look_leaf_4"
+           ],
+   "lia_implication_1" : [
+               "leftist_mergea_by_rank_right_height_5",
+               "leftist_mergea_by_rank_right_height_1"
+           ],
+   "lia_implication_2" : [
+               "leftist_merge_by_leftist_mergea",
+               "leftist_mergea_by_rank_right_height_6"
+           ],
+   "lia_implication_3" : [
+               "leftist_mergea_by_rank_right_height_2",
+               "leftist_hinsert_by_leftist_merge",
+               "leftist_mergea_by_rank_right_height_3"
+            ],
+    "lia_implication_4" : [
+               "leftist_mergea_by_rank_right_height_4",
+               "leftist_hinsert_mulit_by_leftist_hinsert"
+           ],
+   "priqueue1" : [
+               "delete_max_Some_relate_by_select_biggest",
+               "delete_max_Some_relate_by_select_perm",
+               "delete_max_None_relate_by_Permutation_nil",
+               "delete_max_Some_relate_by_Permutation_trans_2"
+            ],
+    "priqueue2" : [
+               "select_biggest_by_select_biggest_aux_2",
+               "delete_max_Some_relate_by_Permutation_trans_1",
+               "select_biggest_by_select_biggest_aux_1",
+               "delete_max_Some_relate_by_forall_permutation"
+           ]
+}

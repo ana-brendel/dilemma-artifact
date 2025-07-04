@@ -21,6 +21,7 @@ test_folder_dictionary = get_dict(os.path.join(os.getcwd(),"testing_scripts/test
 test_dictionary = get_dict(os.path.join(os.getcwd(),"testing_scripts/tests.json"))
 target_lemmas = get_dict(os.path.join(os.getcwd(),"testing_scripts/target_lemmas.json"))
 grouped_tests = get_dict(os.path.join(os.getcwd(),"testing_scripts/groups.json"))
+group_updated_tests = get_dict(os.path.join(os.getcwd(),"testing_scripts/groups_updated.json"))
 
 def test_folder(suite):
     return os.path.join(os.getcwd(),test_folder_dictionary[suite])
@@ -82,6 +83,14 @@ def run_group(group):
     results = run_tests(suite,tests)
     return (suite,results)
 
+def run_group_updated(group):
+    tests = group_updated_tests[group]
+    suite = group
+    for i in range(20):
+        suite = remove_suffix(suite,f"_{i}")
+    results = run_tests(suite,tests)
+    return (suite,results)
+
 def display(label,results):
     contents = []
     (suite,result_list) = results
@@ -114,6 +123,13 @@ def main():
         results = run_group(group)
         contents = display(group,results)
         label = f"group_{group}"
+        create_file(label,contents)
+    elif len(sys.argv) == 3:
+        assert "group_updated" == sys.argv[1]
+        group = sys.argv[2]
+        results = run_group_updated(group)
+        contents = display(group,results)
+        label = f"group_updated_{group}"
         create_file(label,contents)
     else:
         for suite in test_dictionary:
