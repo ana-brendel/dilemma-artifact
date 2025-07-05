@@ -117,15 +117,13 @@ def main():
         contents = display(suite,results)
         label = f"suite_{suite}"
         create_file(label,contents)
-    elif len(sys.argv) == 3:
-        assert "group" == sys.argv[1]
+    elif len(sys.argv) == 3 and "group" == sys.argv[1]:
         group = sys.argv[2]
         results = run_group(group)
         contents = display(group,results)
         label = f"group_{group}"
         create_file(label,contents)
-    elif len(sys.argv) == 3:
-        assert "group_updated" == sys.argv[1]
+    elif len(sys.argv) == 3 and "group_updated" == sys.argv[1]:
         group = sys.argv[2]
         results = run_group_updated(group)
         contents = display(group,results)
