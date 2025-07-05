@@ -191,7 +191,7 @@
                "select_rest_length_by_select_perm",
                "select_rest_length_by_Permutation_length"
            ],
-   "perm" : [
+   "perm_1" : [
                "maybe_swap_correct_by_maybe_swap_perm"
            ],
    "bagperm_1" : [

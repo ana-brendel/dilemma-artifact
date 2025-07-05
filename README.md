@@ -27,7 +27,7 @@ took too long to run (due to having too large of a search sapce) and/or failed t
 when running the groups, these cases are isolated.
 
 ## running instructions
-To download the `.tar` file, you should go to: https://drive.google.com/file/d/1MfZEAXLgZngYH3zIkloVL1-9X2snvzyY/view?usp=sharing.
+To download the `.tar` file, you should go to: https://drive.google.com/drive/folders/1lPXFTauTADtv-x-UTis5luvwLbDpfem4?usp=sharing.
 ```
     $ docker load -i <path to the tar>
     $ docker run -ti -v ${PWD}/results:/root/dilemma-artifact/results dilemma-artifact
@@ -38,4 +38,4 @@ To download the `.tar` file, you should go to: https://drive.google.com/file/d/1
         OR bash run.sh group <group to run>
 ```
 
-There are more detailed instructions in the pdf listed `ArtifactInstructions.pdf`. 
+There are more detailed instructions in the pdf listed `dilemmaArtifactInstructions.pdf`. 
