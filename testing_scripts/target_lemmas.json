@@ -194,5 +194,7 @@
     "goal14" : "sorted l = true -> sorted (insort n l) = true",
     "goal41_2" : "lst_subset x y -> lst_subset x (append z y)",
     "goal69_2" : "Nat_beq x y = true -> x = y",
-    "goal49_3" : "mem x (insort n l) = true -> x = n \/ mem x l = true"
+    "goal49_3" : "mem x (insort n l) = true -> x = n \/ mem x l = true",
+
+    "source" : "execIs (instrapp (compile e) l) s = execIs l (Natcons (evalExp e) s)"
 }

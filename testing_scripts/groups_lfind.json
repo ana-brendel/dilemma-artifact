@@ -1,0 +1,316 @@
+{
+    "compiler" : [
+        "benchmarks/compiler/source.v"
+    ],
+    "lia_successes" : [
+        "benchmarks/lia/atomic/queue_len_by_len_rev.v",
+        "benchmarks/lia/atomic/queue_push_by_len_rev.v",
+        "benchmarks/lia/atomic/list_rev2_append_by_rev2_append_aux.v",
+        "benchmarks/lia/atomic/list_rev2_append_by_rev2_append_aux.v",
+        "benchmarks/lia/atomic/list_rev_append_by_app_nil.v",
+        "benchmarks/lia/atomic/list_rev_eq_rev2_by_rev2_append.v"
+    ],
+    "lia_failures_1" : [
+        "benchmarks/lia/atomic/list_double_rev_by_rev_append.v",
+        "benchmarks/lia/atomic/list_len_rev_by_len_append.v",
+        "benchmarks/lia/atomic/list_rev2_len_by_list_rev2_len_lem.v",
+        "benchmarks/lia/atomic/queue_len_by_len_app.v"
+    ],
+    "lia_failures_2" : [
+        "benchmarks/lia/atomic/queue_push_by_len_app_1.v",
+        "benchmarks/lia/atomic/queue_push_by_len_app_2.v",
+        "benchmarks/lia/atomic/list_rev2_append_by_append_single.v",
+        "benchmarks/lia/atomic/list_rev2_append_by_append_single.v"
+    ],
+    "lia_failures_3" : [
+        "benchmarks/lia/atomic/list_rev_append_by_app_assoc.v",
+        "benchmarks/lia/atomic/tree_insert_all_by_insert_n_S.v",
+        "benchmarks/lia/updated/len_rev_by_len_app.v",
+        "benchmarks/lia/updated/len_rev_by_plus_comm.v",
+        "benchmarks/lia/updated/queue_push_by_plus_comm.v"
+    ],
+    "fulladder_successes" : [
+        "benchmarks/fulladder/full_adder_sum_sym2_by_108_half_adder_sum_false.v",
+        "benchmarks/fulladder/BV_full_adder_sum_v_nil_false_by_364_half_adder_carry_false.v",
+        "benchmarks/fulladder/BV_full_adder_sym_by_425_BV_full_adder_sum_sym.v",
+        "benchmarks/fulladder/BV_full_adder_sum_sym_by_389_full_adder_carry_sym1.v",
+        "benchmarks/fulladder/full_adder_sum_sym2_by_112_half_adder_sum_false.v",
+        "benchmarks/fulladder/BV_full_adder_carry_v_nil_false_by_374_half_adder_carry_false.v",
+        "benchmarks/fulladder/BV_full_adder_sum_sym_by_384_BV_full_adder_sum_eq3.v"
+    ],
+    "fulladder_failures_1" : [
+        "benchmarks/fulladder/BV_full_adder_ok_by_571_full_adder_sum_true.v",
+        "benchmarks/fulladder/BV_full_adder_ok_by_620_plus_permute2.v",
+        "benchmarks/fulladder/BV_full_adder_ok_by_570_full_adder_sum_sym1.v",
+        "benchmarks/fulladder/BV_full_adder_ok_by_539_half_adder_ok.v"
+    ],
+    "fulladder_failures_2" : [
+        "benchmarks/fulladder/BV_full_adder_ok_by_597_plus_permute2.v",
+        "benchmarks/fulladder/BV_full_adder_ok_by_614_plus_permute2.v",
+        "benchmarks/fulladder/BV_full_adder_ok_by_605_plus_permute2.v",
+        "benchmarks/fulladder/BV_full_adder_ok_by_512_BV_full_adder_sym.v"
+    ],
+    "fulladder_failures_3" : [
+        "benchmarks/fulladder/BV_full_adder_ok_by_584_plus_permute2.v",
+        "benchmarks/fulladder/BV_full_adder_ok_by_568_full_adder_carry_sym1.v",
+        "benchmarks/fulladder/BV_full_adder_ok_by_514_BV_full_adder_nil_ok.v",
+        "benchmarks/fulladder/BV_full_adder_ok_by_540_plus_permute2.v"
+    ],
+    "fulladder_failures_4" : [
+        "benchmarks/fulladder/BV_full_adder_ok_by_569_full_adder_carry_true.v",
+        "benchmarks/fulladder/BV_full_adder_ok_by_625_plus_permute2.v",
+        "benchmarks/fulladder/BV_full_adder_carry_sym_by_412_BV_full_adder_carry_eq2.v",
+        "benchmarks/fulladder/BV_full_adder_nil_true_ok_by_480_BV_full_adder_carry_eq3.v"
+    ],
+    "fulladder_failures_5" : [
+        "benchmarks/fulladder/BV_full_adder_sum_sym_by_390_full_adder_sum_sym1.v",
+        "benchmarks/fulladder/BV_full_adder_sum_sym_by_388_BV_full_adder_sum_eq4.v",
+        "benchmarks/fulladder/full_adder_carry_neg_by_182_full_adder_carry_false.v",
+        "benchmarks/fulladder/full_adder_carry_sym2_by_147_half_adder_carry_false.v"
+    ],
+    "fulladder_failures_6" : [
+        "benchmarks/fulladder/full_adder_carry_sym2_by_140_half_adder_sum_false.v",
+        "benchmarks/fulladder/BV_full_adder_sum_sym_by_386_BV_full_adder_sum_eq2.v",
+        "benchmarks/fulladder/BV_full_adder_carry_sym_by_413_BV_full_adder_carry_eq3.v",
+        "benchmarks/fulladder/BV_full_adder_nil_ok_by_498_BV_full_adder_carry_v_nil_false.v"
+    ],
+    "fulladder_failures_7" : [
+        "benchmarks/fulladder/BV_to_nat_app2_by_472_BV_to_nat_app.v",
+        "benchmarks/fulladder/BV_full_adder_sum_v_nil_false_by_365_half_adder_sum_false.v",
+        "benchmarks/fulladder/BV_full_adder_sym_by_426_BV_full_adder_carry_sym.v",
+        "benchmarks/fulladder/BV_full_adder_nil_true_ok_by_484_BV_full_adder_sum_v_nil_false.v"
+    ],
+    "fulladder_failures_8" : [
+        "benchmarks/fulladder/BV_full_adder_sum_sym_by_387_BV_full_adder_sum_eq3.v",
+        "benchmarks/fulladder/full_adder_carry_sym2_by_142_half_adder_carry_false.v",
+        "benchmarks/fulladder/BV_full_adder_nil_true_ok_by_481_app_eq2.v",
+        "benchmarks/fulladder/full_adder_carry_neg_by_183_full_adder_carry_true.v"
+    ],
+    "fulladder_failures_9" : [
+        "benchmarks/fulladder/BV_full_adder_nil_ok_by_499_BV_to_nat_app2.v",
+        "benchmarks/fulladder/BV_full_adder_nil_true_ok_by_486_BV_to_nat_app2.v",
+        "benchmarks/fulladder/full_adder_sum_sym2_by_111_half_adder_sum_false.v",
+        "benchmarks/fulladder/full_adder_carry_sym2_by_148_half_adder_sum_false.v"
+    ],
+    "fulladder_failures_10" : [
+        "benchmarks/fulladder/BV_full_adder_nil_true_ok_by_479_BV_full_adder_sum_eq3.v",
+        "benchmarks/fulladder/BV_full_adder_carry_sym_by_410_BV_full_adder_carry_eq3.v",
+        "benchmarks/fulladder/BV_full_adder_nil_ok_by_497_BV_full_adder_sum_v_nil_false.v",
+        "benchmarks/fulladder/full_adder_carry_neg_by_181_full_adder_carry_true.v"
+    ],
+    "fulladder_failures_11" : [
+        "benchmarks/fulladder/full_adder_carry_neg_by_184_full_adder_carry_sym1.v",
+        "benchmarks/fulladder/full_adder_carry_neg_by_185_full_adder_carry_false.v",
+        "benchmarks/fulladder/BV_full_adder_sum_sym_by_383_BV_full_adder_sum_eq2.v",
+        "benchmarks/fulladder/full_adder_sum_sym2_by_107_half_adder_sum_false.v"
+    ],
+    "fulladder_failures_12" : [
+        "benchmarks/fulladder/BV_full_adder_carry_sym_by_416_full_adder_carry_sym1.v",
+        "benchmarks/fulladder/BV_full_adder_carry_sym_by_415_BV_full_adder_carry_eq4.v",
+        "benchmarks/fulladder/BV_full_adder_nil_true_ok_by_485_BV_full_adder_carry_v_nil_false.v",
+        "benchmarks/fulladder/full_adder_carry_neg_by_180_full_adder_carry_sym1.v"
+    ],
+    "fulladder_failures_13" : [
+        "benchmarks/fulladder/BV_full_adder_sum_v_nil_false_by_363_BV_full_adder_sum_eq3.v",
+        "benchmarks/fulladder/BV_full_adder_carry_v_nil_false_by_373_BV_full_adder_carry_eq3.v",
+        "benchmarks/fulladder/BV_full_adder_nil_true_ok_by_482_half_adder_carry_true.v",
+        "benchmarks/fulladder/BV_full_adder_carry_sym_by_409_BV_full_adder_carry_eq2.v"
+    ],
+    "fulladder_failures_14" : [
+        "benchmarks/fulladder/BV_full_adder_nil_ok_by_496_BV_full_adder_nil_true_ok.v",
+        "benchmarks/fulladder/full_adder_carry_sym2_by_149_half_adder_carry_false.v",
+        "benchmarks/fulladder/full_adder_carry_sym2_by_141_half_adder_carry_false.v"
+    ],
+    "lia_implications_successes" : [
+        "benchmarks/lia/implications/tests/leftist_mergea_by_rank_right_height_5.v",
+        "benchmarks/lia/implications/tests/leftist_hinsert_by_leftist_merge.v",
+        "benchmarks/lia/implications/tests/leftist_mergea_by_rank_right_height_4.v",
+        "benchmarks/lia/implications/tests/leftist_hinsert_mulit_by_leftist_hinsert.v"
+    ],
+    "lia_implications_failures" : [
+        "benchmarks/lia/implications/tests/leftist_mergea_by_rank_right_height_1.v",
+        "benchmarks/lia/implications/tests/leftist_merge_by_leftist_mergea.v",
+        "benchmarks/lia/implications/tests/leftist_mergea_by_rank_right_height_6.v",
+        "benchmarks/lia/implications/tests/leftist_mergea_by_rank_right_height_2.v",
+        "benchmarks/lia/implications/tests/leftist_mergea_by_rank_right_height_3.v"
+    ],
+    "clam_successes_1" : [
+        "benchmarks/clam/atomic/rev_rev_by_rev_rev_cons",
+        "benchmarks/clam/atomic/rev_append_by_append_nil_1",
+        "benchmarks/clam/atomic/goal80_by_rev_rev_2",
+        "benchmarks/clam/atomic/goal80_by_append_nil",
+        "benchmarks/clam/atomic/len_append_by_append_nil",
+        "benchmarks/clam/atomic/len_append_by_len_cons_succ",
+        "benchmarks/clam/atomic/goal8_by_drop_cons_2",
+        "benchmarks/clam/atomic/goal8_by_drop_Cons_assoc",
+        "benchmarks/clam/implications/goal38_1",
+        "benchmarks/clam/implications/goal38_2"
+    ],
+    "clam_successes_2" : [
+        "benchmarks/clam/updated/goal83_by_append_assoc_1.v",
+        "benchmarks/clam/updated/goal27_append_assoc_by_append_nil_2.v",
+        "benchmarks/clam/updated/goal24_by_lem2.v",
+        "benchmarks/clam/updated/goal10_append_assoc_by_append_nil_2.v",
+        "benchmarks/clam/updated/goal83_by_append_assoc_2.v",
+        "benchmarks/clam/updated/goal27_append_assoc_by_append_nil_1.v",
+        "benchmarks/clam/updated/goal83_by_append_nil.v",
+        "benchmarks/clam/updated/goal10_append_assoc_by_append_nil_1.v",
+        "benchmarks/clam/updated/goal9_by_drop_assoc_2.v",
+        "benchmarks/clam/updated/goal60_by_lem.v",
+        "benchmarks/clam/updated/goal79_by_append_nil.v",
+        "benchmarks/clam/updated/goal27_append_assoc_by_append_nil_3.v",
+        "benchmarks/clam/updated/rotate_len_append_by_append_nil.v",
+        "benchmarks/clam/updated/goal10_append_assoc_by_append_nil_3.v",
+        "benchmarks/clam/updated/count_insort_by_count_cons.v",
+        "benchmarks/clam/updated/qreva_append_by_append_nil.v" 
+    ],
+    "clam_successes_3" : [
+        "benchmarks/clam/atomic/goal59_by_rev_rev_cons.v",
+        "benchmarks/clam/atomic/goal17_by_rev_rev_3.v",
+        "benchmarks/clam/atomic/goal17_by_rev_rev_2.v",
+        "benchmarks/clam/atomic/goal17_by_rev_rev_1.v",
+        "benchmarks/clam/atomic/goal19_by_rev_rev_2.v",
+        "benchmarks/clam/atomic/goal19_by_rev_rev_1.v",
+        "benchmarks/clam/atomic/goal2_by_len_append_nil.v",
+        "benchmarks/clam/atomic/goal2_by_len_cons_succ.v",
+        "benchmarks/clam/atomic/goal26_by_plus_comm.v"
+    ],
+    "clam_successes_4" : [
+        "benchmarks/clam/atomic/goal29_by_rev_involutive.v",
+        "benchmarks/clam/atomic/goal30_by_rev_involutive.v",
+        "benchmarks/clam/atomic/goal11_by_append_nil.v",
+        "benchmarks/clam/atomic/goal81_by_qreva_rev.v",
+        "benchmarks/clam/atomic/goal34_by_plus_commut.v",
+        "benchmarks/clam/atomic/goal82_by_rev_rev.v",
+        "benchmarks/clam/atomic/goal18_by_append_nil.v",
+        "benchmarks/clam/atomic/goal28_by_append_nil_2.v",
+        "benchmarks/clam/atomic/goal78_by_rev_rev.v",
+        "benchmarks/clam/atomic/goal29_by_rev_qreva_nil.v",
+        "benchmarks/clam/atomic/goal6_by_len_append_2.v",
+        "benchmarks/clam/atomic/goal28_by_append_nil_3.v",
+        "benchmarks/clam/atomic/goal27_by_append_nil.v",
+        "benchmarks/clam/atomic/goal5_by_len_append_nil.v",
+        "benchmarks/clam/atomic/goal78_by_append_nil.v",
+        "benchmarks/clam/atomic/goal29_by_append_nil.v",
+        "benchmarks/clam/atomic/goal77_by_append_nil.v",
+        "benchmarks/clam/atomic/goal11_by_rev_rev.v",
+        "benchmarks/clam/atomic/goal21_by_append_nil.v"
+    ],
+    "clam_failures_1" : [
+        "benchmarks/clam/updated/rev_rev_by_rev_append.v",
+        "benchmarks/clam/updated/goal79_by_append_assoc_2.v",
+        "benchmarks/clam/updated/goal9_by_drop_assoc_1.v",
+        "benchmarks/clam/updated/goal75_by_append_assoc.v",
+        "benchmarks/clam/updated/goal76_by_append_assoc.v",
+        "benchmarks/clam/updated/goal79_by_append_assoc_1.v",
+        "benchmarks/clam/updated/qreva_append_by_append_assoc.v",
+        "benchmarks/clam/updated/goal24_by_lem.v",
+        "benchmarks/clam/updated/goal57_by_drop_succ_4.v",
+        "benchmarks/clam/updated/rotate_len_append_by_append_assoc.v"
+    ],
+    "clam_failures_2" : [
+        "benchmarks/clam/atomic/goal8_by_drop_nil_3.v",
+        "benchmarks/clam/atomic/goal8_by_drop_nil_1.v",
+        "benchmarks/clam/atomic/goal33_by_mult_assoc.v",
+        "benchmarks/clam/atomic/goal33_by_mult_commut.v",
+        "benchmarks/clam/atomic/distrib_by_plus_assoc_1.v",
+        "benchmarks/clam/atomic/distrib_by_plus_commut.v",
+        "benchmarks/clam/atomic/goal8_by_drop_cons_1.v",
+        "benchmarks/clam/atomic/qreva_rev_by_append_assoc.v",
+        "benchmarks/clam/atomic/goal70_by_Nat_beq_refl_1.v",
+        "benchmarks/clam/atomic/goal70_by_Nat_beq_refl_2.v",
+        "benchmarks/clam/atomic/rev_append_by_append_nil_2.v",
+        "benchmarks/clam/atomic/rev_append_by_append_rev_cons.v",
+        "benchmarks/clam/atomic/append_rev_cons_by_append_assoc.v",
+        "benchmarks/clam/atomic/goal80_by_rev_append.v"
+    ],
+    "clam_failures_3" : [
+        "benchmarks/clam/atomic/goal12_by_append_assoc.v",
+        "benchmarks/clam/atomic/goal7_by_plus_comm_3.v",
+        "benchmarks/clam/atomic/goal7_by_plus_comm_4.v",
+        "benchmarks/clam/atomic/goal7_by_plus_comm_1.v",
+        "benchmarks/clam/atomic/goal7_by_plus_comm_2.v",
+        "benchmarks/clam/atomic/goal16_by_even_odd_plus.v",
+        "benchmarks/clam/atomic/goal32_by_rotate_len_append.v",
+        "benchmarks/clam/atomic/goal9_by_drop_assoc.v",
+        "benchmarks/clam/atomic/mult_succ_by_plus_assoc_1.v",
+        "benchmarks/clam/atomic/mult_succ_by_plus_succ_2.v",
+        "benchmarks/clam/atomic/mult_succ_by_plus_commut.v",
+        "benchmarks/clam/atomic/mult_succ_by_plus_assoc_2.v",
+        "benchmarks/clam/atomic/mult_succ_by_plus_succ_1.v",
+        "benchmarks/clam/atomic/plus_commut_by_plus_zero.v",
+        "benchmarks/clam/atomic/plus_commut_by_plus_succ.v",
+        "benchmarks/clam/atomic/mult_commut_by_mult_succ.v",
+        "benchmarks/clam/atomic/mult_commut_by_mult_zero.v",
+        "benchmarks/clam/atomic/mult_assoc_by_distrib.v",
+        "benchmarks/clam/atomic/goal56_by_drop_succ_2.v",
+        "benchmarks/clam/atomic/goal56_by_drop_succ_1.v",
+        "benchmarks/clam/atomic/goal57_by_drop_succ_1.v",
+        "benchmarks/clam/atomic/goal57_by_drop_succ_2.v",
+        "benchmarks/clam/atomic/goal57_by_drop_succ_3.v",
+        "benchmarks/clam/atomic/goal20_by_even_odd_append_len.v",
+        "benchmarks/clam/atomic/goal31_by_qreva_nil.v",
+        "benchmarks/clam/atomic/goal31_by_qreva_append.v",
+        "benchmarks/clam/atomic/goal15_by_plus_succ_swap_1.v",
+        "benchmarks/clam/atomic/goal15_by_plus_succ_swap_2.v",
+        "benchmarks/clam/atomic/goal85_by_plus_assoc.v",
+        "benchmarks/clam/atomic/goal85_by_plus_commut.v",
+        "benchmarks/clam/atomic/goal1_by_plus_succ.v",
+        "benchmarks/clam/atomic/goal54_by_drop_succ.v",
+        "benchmarks/clam/atomic/goal4_by_len_cons_succ.v",
+        "benchmarks/clam/atomic/goal13_by_plus_succ_swap.v",
+        "benchmarks/clam/atomic/goal23_by_len_append.v"
+    ],
+    "clam_failures_4" : [
+        "benchmarks/clam/atomic/goal21_by_append_assoc_1.v",
+        "benchmarks/clam/atomic/goal28_by_append_nil_1.v",
+        "benchmarks/clam/atomic/goal34_by_plus_qmult.v",
+        "benchmarks/clam/atomic/goal5_by_len_cons_succ.v",
+        "benchmarks/clam/atomic/goal21_by_append_assoc_2.v",
+        "benchmarks/clam/atomic/goal78_by_rev_append.v",
+        "benchmarks/clam/atomic/goal28_by_qrevflat_append.v",
+        "benchmarks/clam/atomic/goal27_by_qreva_append.v",
+        "benchmarks/clam/atomic/goal77_by_append_assoc.v",
+        "benchmarks/clam/atomic/goal82_by_qreva_rev.v",
+        "benchmarks/clam/atomic/goal6_by_len_rev.v",
+        "benchmarks/clam/atomic/goal11_by_rev_rev_cons.v",
+        "benchmarks/clam/atomic/goal6_by_plus_comm.v",
+        "benchmarks/clam/atomic/goal82_by_rev_append.v",
+        "benchmarks/clam/atomic/goal18_by_append_assoc_1.v",
+        "benchmarks/clam/atomic/goal82_by_append_assoc.v",
+        "benchmarks/clam/atomic/goal28_by_append_assoc.v",
+        "benchmarks/clam/atomic/goal34_by_plus_assoc_1.v",
+        "benchmarks/clam/atomic/goal11_by_append_assoc_2.v",
+        "benchmarks/clam/atomic/goal81_by_append_assoc.v",
+        "benchmarks/clam/atomic/goal6_by_len_append_1.v",
+        "benchmarks/clam/atomic/goal30_by_append_nil.v",
+        "benchmarks/clam/atomic/goal78_by_append_assoc.v",
+        "benchmarks/clam/atomic/goal34_by_plus_assoc_2.v",
+        "benchmarks/clam/atomic/goal18_by_append_assoc_2.v",
+        "benchmarks/clam/atomic/goal11_by_append_assoc_1.v",
+        "benchmarks/clam/atomic/goal29_by_qreva_append.v"
+    ],
+    "clam_implications_successes" : [
+        "benchmarks/clam/implications/goal50_3.v",
+        "benchmarks/clam/implications/goal41_3.v",
+        "benchmarks/clam/implications/goal42.v",
+        "benchmarks/clam/implications/goal49_1.v",
+        "benchmarks/clam/implications/goal62_1.v",
+        "benchmarks/clam/implications/goal41_1.v",
+        "benchmarks/clam/implications/goal50_2.v",
+        "benchmarks/clam/implications/goal14.v",
+        "benchmarks/clam/implications/goal41_2.v"
+        
+    ],
+    "clam_implications_failures" : [
+        "benchmarks/clam/implications/goal69_2.v",
+        "benchmarks/clam/implications/goal49_3.v",
+        "benchmarks/clam/implications/goal44.v",
+        "benchmarks/clam/implications/goal47_2.v",
+        "benchmarks/clam/implications/goal47_1.v",
+        "benchmarks/clam/implications/goal50_1.v",
+        "benchmarks/clam/implications/goal69_1.v",
+        "benchmarks/clam/implications/goal49_2.v",
+        "benchmarks/clam/implications/goal62_2.v"
+    ]
+}

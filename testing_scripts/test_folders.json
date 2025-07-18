@@ -4,6 +4,9 @@
     "clam_atomic" : "benchmarks/clam/atomic",
     "lia_atomic" : "benchmarks/lia/atomic",
 
+    "compiler" : "benchmarks/compiler",
+    "fulladder" : "benchmarks/fulladder",
+
     "selection" : "benchmarks/vfa_selection/tests",
     "merge" : "benchmarks/vfa_merge/tests",
     "binom" : "benchmarks/vfa_binom/tests",

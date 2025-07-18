@@ -22,6 +22,7 @@ test_dictionary = get_dict(os.path.join(os.getcwd(),"testing_scripts/tests.json"
 target_lemmas = get_dict(os.path.join(os.getcwd(),"testing_scripts/target_lemmas.json"))
 grouped_tests = get_dict(os.path.join(os.getcwd(),"testing_scripts/groups.json"))
 group_updated_tests = get_dict(os.path.join(os.getcwd(),"testing_scripts/groups_updated.json"))
+group_lfind_tests = get_dict(os.path.join(os.getcwd(),"testing_scripts/groups_lfind.json"))
 
 def test_folder(suite):
     return os.path.join(os.getcwd(),test_folder_dictionary[suite])
@@ -91,6 +92,41 @@ def run_group_updated(group):
     results = run_tests(suite,tests)
     return (suite,results)
 
+def run_lfind_test(test):
+    splits = test.split("/")
+    folder = "/".join(splits[:-1])
+    test = splits[-1]
+    cmd = f"cd {folder} && coqc {test}.v"
+    try:
+        result = subprocess.check_output(cmd, shell=True, text=True)
+        return result
+    except:
+        return ""
+
+def lfind_target(test):
+    file = test.split("/")[-1]
+    label = file.removesuffix(".v")
+    split = label.split("_by_")
+    if len(split) == 2:
+        tgt = split[1]
+        for i in range(1000):
+            tgt = tgt.remove_prefix(f"{i}_")
+        if tgt not in target_lemmas:
+            print(tgt)
+        return target_lemmas[tgt]
+    else:
+        if label not in target_lemmas:
+            print(label)
+        return target_lemmas[label]
+
+def run_lfind_group(group):
+    tests = group_lfind_tests[group]
+    for t in tests:
+        r = run_lfind_group(t)
+        target = lfind_target(t)
+        results += [(t,target,r)]
+    return results
+
 def display(label,results):
     contents = []
     (suite,result_list) = results
@@ -108,7 +144,7 @@ def display(label,results):
 
 def create_file(label,contents):
     file = os.path.join(os.path.join(os.getcwd(),"results"),label) + ".txt"
-    write (file,contents)
+    write(file,contents)
 
 def main():
     if len(sys.argv) == 2:
@@ -128,6 +164,12 @@ def main():
         results = run_group_updated(group)
         contents = display(group,results)
         label = f"group_updated_{group}"
+        create_file(label,contents)
+    elif len(sys.argv) == 3 and "lfind_benchmarks" == sys.argv[1]:
+        group = sys.argv[2]
+        results = run_lfind_group(group)
+        contents = display(group,(group,results))
+        label = f"group_lfind_{group}"
         create_file(label,contents)
     else:
         for suite in test_dictionary:
