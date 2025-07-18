@@ -34,8 +34,8 @@ To download the `.tar` file, you should go to: https://drive.google.com/drive/fo
     $ bash make_all.sh
     $ eval $(opam config env)
     $ bash run.sh <suite to run> 
-    $ bash run.sh <suite to run> 
         OR bash run.sh group <group to run>
+        OR bash run.sh lfind_benchmarks <group to run>
 ```
 
 There are more detailed instructions in the pdf listed `dilemmaArtifactInstructions.pdf`. 
