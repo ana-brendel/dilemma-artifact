@@ -16,6 +16,11 @@ def remove_suffix(input_string, suffix):
     if suffix and input_string.endswith(suffix):
         return input_string[:-len(suffix)]
     return input_string 
+
+def remove_prefix(input_string, prefix):
+    if prefix and input_string.startswith(prefix):
+        return input_string[len(prefix):]
+    return input_string 
     
 test_folder_dictionary = get_dict(os.path.join(os.getcwd(),"testing_scripts/test_folders.json"))
 test_dictionary = get_dict(os.path.join(os.getcwd(),"testing_scripts/tests.json"))
@@ -110,7 +115,7 @@ def lfind_target(test):
     if len(split) == 2:
         tgt = split[1]
         for i in range(1000):
-            tgt = tgt.remove_prefix(f"{i}_")
+            tgt = remove_prefix(tgt,f"{i}_")
         if tgt not in target_lemmas:
             print(tgt)
         return target_lemmas[tgt]
