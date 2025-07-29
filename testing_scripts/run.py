@@ -101,7 +101,7 @@ def run_lfind_test(test):
     splits = test.split("/")
     folder = "/".join(splits[:-1])
     test = splits[-1]
-    cmd = f"cd {folder} && coqc {test}.v"
+    cmd = f"cd {folder} && coqc {test}"
     try:
         result = subprocess.check_output(cmd, shell=True, text=True)
         return result
@@ -130,7 +130,8 @@ def run_lfind_group(group):
     for t in tests:
         r = run_lfind_test(t)
         target = lfind_target(t)
-        results += [(t,target,r)]
+        label = remove_suffix(t.split("/")[-1],".v")
+        results += [(label,target,r)]
     return results
 
 def display(label,results):
