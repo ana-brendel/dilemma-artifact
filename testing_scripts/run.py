@@ -110,7 +110,7 @@ def run_lfind_test(test):
 
 def lfind_target(test):
     file = test.split("/")[-1]
-    label = file.removesuffix(".v")
+    label = remove_suffix(file,".v")
     split = label.split("_by_")
     if len(split) == 2:
         tgt = split[1]
