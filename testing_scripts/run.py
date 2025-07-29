@@ -126,6 +126,7 @@ def lfind_target(test):
 
 def run_lfind_group(group):
     tests = group_lfind_tests[group]
+    results = []
     for t in tests:
         r = run_lfind_test(t)
         target = lfind_target(t)
