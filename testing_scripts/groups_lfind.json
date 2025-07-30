@@ -139,20 +139,20 @@
         "benchmarks/lia/implications/tests/leftist_mergea_by_rank_right_height_3.v"
     ],
     "clam_successes_1" : [
-        "benchmarks/clam/atomic/rev_rev_by_rev_rev_cons",
-        "benchmarks/clam/atomic/rev_append_by_append_nil_1",
-        "benchmarks/clam/atomic/goal80_by_rev_rev_2",
-        "benchmarks/clam/atomic/goal80_by_append_nil"
+        "benchmarks/clam/atomic/rev_rev_by_rev_rev_cons.v",
+        "benchmarks/clam/atomic/rev_append_by_append_nil_1.v",
+        "benchmarks/clam/atomic/goal80_by_rev_rev_2.v",
+        "benchmarks/clam/atomic/goal80_by_append_nil.v"
     ],
     "clam_successes_2" : [
-        "benchmarks/clam/atomic/len_append_by_append_nil",
-        "benchmarks/clam/atomic/len_append_by_len_cons_succ",
-        "benchmarks/clam/atomic/goal8_by_drop_cons_2"
+        "benchmarks/clam/atomic/len_append_by_append_nil.v",
+        "benchmarks/clam/atomic/len_append_by_len_cons_succ.v",
+        "benchmarks/clam/atomic/goal8_by_drop_cons_2.v"
     ],
     "clam_successes_3" : [
-        "benchmarks/clam/atomic/goal8_by_drop_Cons_assoc",
-        "benchmarks/clam/implications/goal38_1",
-        "benchmarks/clam/implications/goal38_2"
+        "benchmarks/clam/atomic/goal8_by_drop_Cons_assoc.v",
+        "benchmarks/clam/implications/goal38_1.v",
+        "benchmarks/clam/implications/goal38_2.v"
     ],
     "clam_successes_4" : [
         "benchmarks/clam/updated/goal83_by_append_assoc_1.v",
